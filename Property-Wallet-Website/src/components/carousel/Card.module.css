@@ -1,0 +1,34 @@
+/* zaman */
+
+.card {
+  display: flex;
+  margin-top: -27%;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: transparent;
+  width: 20rem;
+  /* height: 30rem; */
+  /* height: fit-content; */
+  /* padding: 0 2rem 2rem 2rem; */
+  /* border-radius: 10px; */
+  /* border-color: black;
+  border-style: solid; */
+}
+
+/* zaman */
+
+/* areeb */
+/* .card {
+  display: flex;
+  margin-top: -1%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  width: 30rem;
+  commit
+  margin-right: -10%;
+  commit
+
+} */
+/* areeb */

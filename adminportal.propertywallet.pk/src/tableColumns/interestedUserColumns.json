@@ -1,0 +1,45 @@
+[
+    {
+      "title": "Builder Name",
+      "dataIndex": "builderName",
+      "key": "builderName",
+      "align": ""
+    },
+    {
+        "title": "Project Name",
+        "dataIndex": "projectName",
+        "key": "projectName",
+        "align": ""
+      },
+    {
+        "title": "Phone",
+        "dataIndex": "phone",
+        "key": "phone",
+        "align": ""
+      },
+    {
+      "title": "City",
+      "dataIndex": "city",
+      "key": "city",
+      "align": ""
+    },
+    {
+      "title": "Description",
+      "dataIndex": "description",
+      "key": "description",
+      "align": ""
+    },
+   
+    {
+      "title": "Project Status",
+      "dataIndex": "projectStatus",
+      "key": "projectStatus",
+      "align": ""
+    },
+    {
+      "title": "Date",
+      "dataIndex": "createdAt",
+      "align": "center",
+      "key": "createdAt"
+    }
+  ]

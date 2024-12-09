@@ -1,0 +1,27 @@
+[
+  {
+    "title": "First Name",
+    "dataIndex": "firstName",
+    "key": "firstName"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "key": "email"
+  },
+  {
+    "title": "Message",
+    "dataIndex": "action",
+    "key": "message"
+  },
+  {
+    "title": "Lead Source",
+    "dataIndex": "leadSource",
+    "key": "leadSource"
+  },
+  {
+    "title": "Created At",
+    "dataIndex": "createdAt",
+    "key": "createdAt"
+  }
+]

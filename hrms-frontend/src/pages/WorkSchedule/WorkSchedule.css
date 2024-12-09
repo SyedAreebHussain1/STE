@@ -1,0 +1,10 @@
+.time-picker-button-class .ant-picker-footer .ant-picker-ok .ant-btn-primary {
+  color: black;
+}
+
+.time-picker-button-class
+  .ant-picker-footer
+  .ant-picker-ok
+  .ant-btn-primary:hover {
+  color: white;
+}

@@ -1,0 +1,43 @@
+[
+    {
+      "title": "Name",
+      "dataIndex": "name",
+      "key": "name"
+    },
+    {
+      "title": "Email",
+      "dataIndex": "email",
+      "key": "email"
+    },
+    {
+      "title": "Phone No",
+      "dataIndex": "phoneNo",
+      "key": "phoneNo"
+    },
+    {
+      "title": "Website Counts",
+      "dataIndex": "websiteCount",
+      "key": "websiteCount"
+    },
+    {
+      "title": "SignUp Counts",
+      "dataIndex": "signUpsCounts",
+      "key": "signUpsCounts"
+    },
+    {
+      "title": "Subscription Counts",
+      "dataIndex": "subscriptionsCounts",
+      "key": "subscriptionsCounts"
+    },
+    {
+      "title": "RefLink",
+      "dataIndex": "refLink",
+      "key": "refLink"
+    },
+    {
+        "title": "Action",
+        "dataIndex": "action",
+        "key": "action"
+      }
+  ]
+  

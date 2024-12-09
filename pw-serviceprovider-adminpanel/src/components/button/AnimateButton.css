@@ -1,0 +1,68 @@
+.button {
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 60px;
+  height: 46px;
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  width: auto;
+  max-width: 46px; /** I'm animating max-width because width needs to be auto, and auto can't be animated **/
+  -webkit-transition: max-width 2s;
+  transition: max-width 2s;
+}
+
+.button:hover {
+  max-width: 300px;
+  height: 46px;
+}
+
+.button > .icon {
+  font-family: "Font Awesome 5 Free";
+  font-size: 16px;
+  margin-right: 8px;
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.button > .text {
+  white-space: nowrap;
+  padding-right: 15px;
+}
+
+/* ****************************** */
+
+.sm {
+  color: black;
+  text-decoration: none;
+  border-radius: 60px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  width: auto;
+  max-width: 32px; /** I'm animating max-width because width needs to be auto, and auto can't be animated **/
+  -webkit-transition: max-width 2s;
+  transition: max-width 2s;
+}
+
+.sm:hover {
+  max-width: 300px;
+  color: white;
+}
+
+.sm > .icon {
+  font-family: "Font Awesome 5 Free";
+  font-size: 16px;
+  margin-right: 15px;
+  padding: 0px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.sm > .text {
+  white-space: nowrap;
+  padding-right: 15px;
+}

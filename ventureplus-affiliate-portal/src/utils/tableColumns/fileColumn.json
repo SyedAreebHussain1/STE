@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name"
+  },
+  {
+    "title": "Type",
+    "dataIndex": "type",
+    "key": "type"
+  },
+  {
+    "title": "Size",
+    "dataIndex": "size",
+    "key": "size"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "key": "date"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action"
+  }
+]

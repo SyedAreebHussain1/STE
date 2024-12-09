@@ -1,0 +1,8 @@
+.businessSettingCardClass {
+  transition: all 0.6s ease-in-out, background 0s ease-in-out; /* Corrected transform to transition, added a duration */
+  border-radius: 10px;
+}
+
+.businessSettingCardClass:hover {
+  border-radius: 50%; /* This will apply a smooth transition when hovering */
+}

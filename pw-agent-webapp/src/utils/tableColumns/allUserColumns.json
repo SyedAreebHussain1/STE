@@ -1,0 +1,37 @@
+[
+  {
+    "title": "ID",
+    "dataIndex": "id",
+    "key": "id"
+  },
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "key": "email"
+  },
+  {
+    "title": "Phone No",
+    "dataIndex": "phoneNo",
+    "key": "phoneNo"
+  },
+  {
+    "title": "Designation",
+    "dataIndex": "designation",
+    "key": "designation"
+  },
+  {
+    "title": "Roles",
+    "dataIndex": "roles",
+    "key": "roles"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action"
+  }
+]

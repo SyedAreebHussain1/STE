@@ -1,0 +1,34 @@
+[
+  { "title": "S NO.", "dataIndex": "sno", "key": "sno" },
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name"
+  },
+  {
+    "title": "Agency Name",
+    "dataIndex": "agencyname",
+    "key": "agencyname"
+  },
+  {
+    "title": "Comment",
+    "dataIndex": "comment",
+    "key": "comment"
+  },
+  {
+    "title": "Phone",
+    "dataIndex": "phone",
+    "key": "phone"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "key": "email"
+  },
+
+  {
+    "title": "Rate",
+    "dataIndex": "rateStar",
+    "key": "rateStar"
+  }
+]

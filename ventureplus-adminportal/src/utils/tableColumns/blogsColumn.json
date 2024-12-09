@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Title",
+        "dataIndex": "title",
+        "key": "title"
+    },
+    {
+        "title": "Blog Description",
+        "dataIndex": "description",
+        "key": "description"
+    },
+    {
+        "title": "Blog Category",
+        "dataIndex": "blogCategory",
+        "key": "blogCategory"
+    },
+    {
+        "title": "Type",
+        "dataIndex": "type",
+        "key": "type"
+    },
+    {
+        "title": "Author",
+        "dataIndex": "author",
+        "key": "author"
+    },
+    {
+        "title": "Action",
+        "dataIndex": "action",
+        "key": "action"
+    }
+]

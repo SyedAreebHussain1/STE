@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Agency Name",
+    "dataIndex": "agencyName",
+    "key": "agencyName"
+  },
+  {
+    "title": "Catalogue Link",
+    "dataIndex": "catalogueLink",
+    "key": "catalogueLink"
+  }
+]

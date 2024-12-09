@@ -1,0 +1,37 @@
+[
+  {
+    "title": "S. No",
+    "dataIndex": "sNo",
+    "key": "sNo"
+  },
+  {
+    "title": "Account No",
+    "dataIndex": "accountNo",
+    "key": "accountNo"
+  },
+  {
+    "title": "Account Holder Name",
+    "dataIndex": "acountName",
+    "key": "acountName"
+  },
+  {
+    "title": "Bank",
+    "dataIndex": "bankName",
+    "key": "bankName"
+  },
+  {
+    "title": "Amount",
+    "dataIndex": "amount",
+    "key": "amount"
+  },
+  {
+    "title": "Status",
+    "dataIndex": "status",
+    "key": "status"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "key": "date"
+  }
+]

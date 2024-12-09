@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Invoice No",
+    "dataIndex": "invoice",
+    "key": "invoice",
+    "align": "center"
+  },
+  {
+    "title": "Bank",
+    "dataIndex": "bank",
+    "align": "center",
+    "key": "bank"
+  },
+  {
+    "title": "Account No",
+    "dataIndex": "accountNo",
+    "align": "center",
+    "key": "accountNo"
+  },
+
+  {
+    "title": "Account Title",
+    "dataIndex": "accountTitle",
+    "align": "center",
+    "key": "accountTitle"
+  },
+  {
+    "title": "Withdraw Date",
+    "dataIndex": "withdrawDate",
+    "align": "center",
+    "key": "withdrawDate"
+  },
+  {
+    "title": "Amount",
+    "dataIndex": "amount",
+    "align": "center",
+    "key": "amount"
+  },
+  {
+    "title": "Amount in Words",
+    "dataIndex": "amountInWords",
+    "align": "center",
+    "key": "amountInWords"
+  }
+]

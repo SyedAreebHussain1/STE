@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Name",
+        "dataIndex": "name",
+        "key": "name"
+    },
+    {
+        "title": "Coupon Duration",
+        "dataIndex": "duration",
+        "key": "duration"
+    },
+    {
+        "title": "Percent Off",
+        "dataIndex": "percent_off",
+        "key": "percent_off"
+    },
+    {
+        "title": "Usage Limit",
+        "dataIndex": "usageLimit",
+        "key": "usageLimit"
+    },
+    {
+        "title": "Used Coupon",
+        "dataIndex": "usedCoupon",
+        "key": "usedCoupon"
+    },
+    {
+        "title": "Action",
+        "dataIndex": "action",
+        "key": "action"
+    }
+]

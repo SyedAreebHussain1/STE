@@ -1,0 +1,24 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo runtime installed
+      - n 14
+  pre_build:
+    commands:
+      - rm -rf node_modules
+      # - rm -f package-lock.json
+      - npm cache clean --force
+      - echo installing source npm dependencies
+      - npm install --force
+
+  build:
+    commands:
+      - echo bilding
+      - export NODE_OPTIONS="--max-old-space-size=3072"
+      - npm run build || exit 1
+  post_build:
+    commands:
+      - echo build complete on `date`
+      - aws s3 sync ./build s3://stag-sales.propertywallet.pk/
+      - aws cloudfront create-invalidation --distribution-id E37RE78SP4RFFJ --paths '/*'

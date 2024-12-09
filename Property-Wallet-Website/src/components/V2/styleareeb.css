@@ -1,0 +1,406 @@
+.flexs {
+  display: flex;
+}
+
+
+.imgIphoneScreen {
+  width: 40% !important;
+}
+
+.imgIphoneScreen1 {
+  width: 50% !important;
+}
+
+.imgDiv {
+  width: 100%;
+  padding-left: 1.2rem;
+}
+
+.text-inven {
+  padding-top: 1.4rem !important;
+  padding-left: 7px !important;
+  font-size: 13px !important;
+}
+
+.imgandp {
+  height: 4rem;
+  align-items: center;
+}
+
+.activeTest {
+  transition: 0.5s;
+  background-color: rgb(92, 83, 83) !important;
+  border-radius: 8px;
+  color: rgb(89, 218, 218);
+  box-shadow: 1px 1px 1px 1px rgb(219, 221, 223);
+}
+.activeTest01 {
+  transition: 0.5s;
+  background-color: rgb(92, 83, 83) !important;
+  border-radius: 8px;
+  color: rgb(89, 218, 218);
+  box-shadow: 1px 1px 1px 1px rgb(219, 221, 223);
+}
+.activeTest02 {
+  transition: 0.5s;
+  background-color: rgb(92, 83, 83) !important;
+  border-radius: 8px;
+  color: rgb(89, 218, 218);
+  box-shadow: 1px 1px 1px 1px rgb(219, 221, 223);
+}
+
+
+.anchorTag {
+  background-color: white !important;
+  padding: 0% !important;
+}
+
+/* .anchorTag1 {
+  background-color: white !important;
+  padding: 0% !important;
+} */
+
+.btnLearnmore {
+  background-color: #27a3a3 !important;
+  box-shadow: 2px 2px rgb(164, 183, 189);
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btnLearnmore::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 0;
+  background-color: #1b5c68;
+  color: #fff !important;
+}
+
+.btnLearnmore:hover {
+  background-color: #1b5c68 !important;
+  color: #fff !important;
+}
+
+/* Section */
+
+.accordion {
+  color: rgb(28, 75, 82);
+  cursor: pointer;
+  padding: 14px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1rem;
+  transition: 0.4s;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 1px rgb(219, 221, 223);
+}
+
+
+.active12,
+.accordion:active {
+  background-color: #27a3a3 !important;
+  color: #fff;
+  transition: 0.5s;
+  border-radius: 0px;
+  box-shadow: 1px 1px 1px 1px rgb(219, 221, 223);
+}
+
+
+.panel {
+  display: none;
+  background-color: white;
+  padding: 10px;
+  overflow: hidden;
+}
+
+/* Section */
+
+.curve {
+  width: 430px;
+  height: 99px;
+  border: solid 16px rgb(25, 116, 177);
+  border-color: transparent transparent rgb(35, 146, 180) transparent;
+  border-radius: 0 0 240px 50%/60px;
+  margin-left: -30px;
+  margin-top: -70px;
+}
+
+.text_Quick {
+  color: black;
+}
+
+
+/* analytic */
+
+.completeDesktopText {
+  color: rgb(0, 0, 0);
+  font-size: 1.6rem;
+}
+
+.analyticCartHeading {
+  margin-left: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.font-1rem {
+  color: grey;
+  font-size: 15px;
+}
+
+.marginTop-10px {
+  margin-top: 10px;
+  height: 60px;
+}
+
+.analyticCartImgIcon {
+  height: 2rem
+}
+
+.getStartedNow {
+  background-color: #27a3a3 !important;
+  box-shadow: 2px 2px rgb(164, 183, 189);
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.getStartedNow::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 0;
+  background-color: #1b5c68;
+  color: #fff !important;
+  /* border-radius: 0; */
+}
+
+.getStartedNow:hover {
+  background-color: #1b5c68 !important;
+  color: #fff !important;
+}
+
+.learnMore {
+  background-color: #27a3a3 !important;
+  box-shadow: 2px 2px rgb(164, 183, 189);
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.learnMore::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 0;
+  background-color: #1b5c68;
+  color: #fff !important;
+}
+
+.learnMore:hover {
+  background-color: #1b5c68 !important;
+  color: #fff !important;
+}
+
+/* analytic end */
+/* more-serices */
+
+
+/* user testing */
+.border {
+  border: 2px solid yellow;
+}
+
+.marginTop-15px {
+  margin-top: 15px;
+
+}
+
+.marginTop-7px {
+  margin-top: 7px;
+}
+
+.text-black {
+  color: black;
+}
+
+.marginTop12rem {
+  margin-top: 12rem;
+}
+
+.font-size-1_8rem {
+  font-size: 1.8rem;
+}
+
+.font-size-1_6rem {
+  font-size: 1.6rem;
+}
+
+.margin-bottom-60px {
+  margin-bottom: 60px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-gray {
+  color: grey;
+}
+
+.text-skyblue {
+  color: #27a3a3;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.font-size-L {
+  font-size: large;
+}
+
+.font-15px {
+  font-size: 15px;
+}
+
+.font-1rem {
+  font-size: 1rem;
+}
+
+.height-440px {
+  height: 440px;
+}
+
+.width-300px {
+  width: 300px;
+}
+
+.padding-1rem {
+  padding: 1rem;
+}
+
+.height-2_rem {
+  height: 2.4rem;
+}
+
+.height-300px {
+  height: 300px;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.margin-left_12px {
+  margin-left: 12px;
+}
+
+/*user testing  */
+.marginleft-350px {
+  margin-left: -350px
+}
+
+.marginTop-30px {
+  margin-top: -30px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px) and (min-width: 753px) {
+
+  .services-aprt-none {
+    display: none !important;
+  }
+
+  .faq-mobile-show {
+    display: block !important;
+  }
+}
+
+
+@media screen and (max-width: 752px) and (min-width: 230px) {
+
+  .services-aprt-none {
+    display: none !important;
+  }
+
+  .faq-mobile-show {
+    display: block !important;
+  }
+
+  .imgDiv {
+    justify-content: center !important;
+    align-items: center !important;
+    align-self: center !important;
+    width: 50%;
+    /* margin-left: 2px !important; */
+  }
+
+  .imgIphoneScreen {
+    display: none;
+  }
+
+  .iconpng {
+    width: 20px !important;
+  }
+
+  .text_Quick {
+    font-size: 1.6rem !important;
+  }
+
+  .curve {
+    width: 300px !important;
+    height: 109px !important;
+    border: solid 16px #27a3a3 !important;
+    border-color: transparent transparent #27a3a3 transparent !important;
+    border-radius: 0 0 240px 50%/60px !important;
+    margin-left: -25px !important;
+    margin-top: -99px !important;
+  }
+
+
+  .fastImpossiblysimple {
+    font-size: 20px;
+  }
+
+
+  /* analytic */
+
+
+  .completeDesktopText {
+    font-size: 0.8rem;
+  }
+
+  .analyticCartHeading {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .analyticCartPera {
+    color: grey;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+
+  /* analytic end */
+}

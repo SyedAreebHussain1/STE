@@ -1,0 +1,53 @@
+[
+  {
+    "title": "User",
+    "dataIndex": "user",
+    "key": "user",
+
+    "width": 80
+  },
+  {
+    "title": "Activity Screen",
+    "dataIndex": "activityScreen",
+
+    "key": "activityScreen"
+  },
+
+  {
+    "title": "Activity Module",
+    "dataIndex": "activityModule",
+
+    "key": "activityModule"
+  },
+
+  {
+    "title": "Activity Date",
+    "dataIndex": "activityDate",
+
+    "key": "activityDate"
+  },
+  {
+    "title": "Activity Time",
+    "dataIndex": "activityTime",
+
+    "key": "activityTime"
+  },
+  {
+    "title": "Phone No",
+    "dataIndex": "phoneNo",
+
+    "key": "phoneNo"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+
+    "key": "email"
+  },
+  {
+    "title": "Agency Name",
+    "dataIndex": "agencyName",
+
+    "key": "agencyName"
+  }
+]

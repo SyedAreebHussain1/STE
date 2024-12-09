@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Inventory",
+    "dataIndex": "inventory",
+    "key": "inventory"
+  },
+  {
+    "title": "Area Size",
+    "dataIndex": "areaSize",
+    "key": "areaSize"
+  },
+  {
+    "title": "Property Type",
+    "dataIndex": "propertyType",
+    "key": "propertyType"
+  },
+  {
+    "title": "Sub-Property Type",
+    "dataIndex": "SubpropertyType",
+    "key": "SubpropertyType"
+  },
+  {
+    "title": "Price",
+    "dataIndex": "price",
+    "key": "price"
+  },
+  {
+    "title": "Agency Name",
+    "dataIndex": "agencyName",
+    "key": "agencyName"
+  },
+  {
+    "title": "Subscription Package",
+    "dataIndex": "pwSubPackage",
+    "align": "",
+    "key": "pwSubPackage"
+  },
+  {
+    "title": "Inventory Type",
+    "dataIndex": "inventoryType",
+    "align": "",
+    "key": "inventoryType"
+  },
+  {
+    "title": "Sale Commission",
+    "dataIndex": "saleCommission",
+    "align": "",
+    "key": "saleCommission"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "align": "",
+    "key": "date"
+  },
+  {
+    "title": "Status",
+    "dataIndex": "status",
+    "align": "",
+    "key": "status"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

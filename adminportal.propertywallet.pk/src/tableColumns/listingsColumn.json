@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Project Name",
+    "dataIndex": "projectName",
+    "key": "projectName",
+    "align": "",
+    "width": 220
+  },
+  {
+    "title": "No of Inventories",
+    "dataIndex": "noOfInventories",
+    "align": "",
+    "key": "noOfInventories"
+  },
+  {
+    "title": "Builder Name",
+    "dataIndex": "builderName",
+    "align": "",
+    "key": "builderName"
+  },
+  {
+    "title": "Location",
+    "dataIndex": "location",
+    "align": "",
+    "key": "location"
+  },
+  {
+    "title": "Total Area Size",
+    "dataIndex": "totalAreaSize",
+    "align": "",
+    "key": "totalAreaSize"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

@@ -1,0 +1,88 @@
+h1.heading {
+  font-size: 60px;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+p.heading.p__color {
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 1.2;
+}
+.amentities {
+  /* background-image: url("../../assets/nature1.jpg"); */
+  /* box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.9); */
+  /* background-color: #242424; */
+  background-color: white;
+  border-top: 4px solid #d69929 ;
+  border-bottom: 4px solid #d69929;
+}
+.service__box {
+  border-radius: 10px;
+  width: 100%;
+  /* background-color: #25272B; */
+  background-color: #042023;
+  padding: 75px;
+  transition: 0.4s ease;
+}
+.baks{
+  transition: 0.4s ease;
+}
+.baks:hover{
+  cursor: pointer;
+  transform: translateY(5px);
+  /* border-bottom: 9px solid #d69929; */
+}
+.service__boxf {
+  border-radius: 10px;
+  width: 100%;
+  /* background-color: #25272B; */
+  background-color: #042023;
+  padding: 45px;
+  transition: 0.4s ease;
+}
+.service__box:hover {
+  transform: translateY(5px);
+  border-bottom: 9px solid #d69929;
+  /* background-image: linear-gradient(90deg, #f61b10, #ef0963); */
+}
+.service__boxf:hover {
+  transform: translateY(5px);
+  border-bottom: 9px solid #d69929;
+  /* background-image: linear-gradient(90deg, #f61b10, #ef0963); */
+}
+.service__boxf:hover .icon {
+  color: #fff;
+}
+.service__box:hover .icon {
+  color: #fff;
+}
+.service__box:hover p.service__text.p__color {
+  color: #fff !important;
+}
+.service__boxf:hover p.service__text.p__color {
+  color: #fff !important;
+}
+
+.icon {
+  font-size: 54px;
+  font-weight: 400;
+  margin-bottom: 23px;
+  display: inline-flex;
+  color: #f9004d;
+}
+p.service__text.p__color {
+  margin-bottom: 0;
+}
+h1.service__text {
+  font-size: 19px;
+  font-family: Poppins, sans-serif;
+  padding: 10px 0px;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+  .service__box {
+    /* padding: 32px; */
+  }
+}

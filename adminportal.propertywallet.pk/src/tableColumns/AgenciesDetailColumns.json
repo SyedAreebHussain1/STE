@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Agency",
+    "dataIndex": "agency",
+    "key": "agency"
+  },
+  {
+    "title": "Agency Location",
+    "dataIndex": "agencyLocation",
+    "key": "agencyLocation"
+  },
+  {
+    "title": "No Of Staff",
+    "dataIndex": "noOfStaff",
+    "key": "noOfStaff"
+  },
+  {
+    "title": "No Of Managers",
+    "dataIndex": "noOfManagers",
+    "key": "email"
+  },
+  {
+    "title": "No Of Inventories",
+    "dataIndex": "noOfInventories",
+    "key": "noOfInventories"
+  },
+  {
+    "title": "Website",
+    "dataIndex": "website",
+    "key": "website"
+  },
+  {
+    "title": "Owner",
+    "dataIndex": "owner",
+    "key": "owner"
+  },
+  {
+    "title": "Phone No",
+    "dataIndex": "phoneNo",
+    "key": "phoneNo"
+  }
+]

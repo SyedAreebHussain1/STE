@@ -1,0 +1,9 @@
+@import "../../../../../node_modules/react-modal-video/scss/modal-video.scss";
+.videoInWhatsNew .modal-video-close-btn::before {
+  height: 3px !important;
+  width: 40px !important;
+}
+.videoInWhatsNew .modal-video-close-btn::after {
+  height: 3px !important;
+  width: 40px !important;
+}

@@ -1,0 +1,14 @@
+.successfulBusinessPlanCard {
+  clip-path: polygon(100% 0, 100% 100%, 16% 100%, 0 94%, 0 0);
+}
+#successfulCard1,
+#successfulCard2,
+#successfulCard3 {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  transition: all 0.5s ease-out;
+}
+.HowWeStartedH1 {
+  transition: all 0.5s ease-in-out;
+}

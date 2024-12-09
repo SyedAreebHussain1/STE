@@ -1,0 +1,63 @@
+.quillNotFocus .ql-toolbar {
+  @apply hidden;
+}
+
+.quillNotFocus .ql-toolbar,
+.quillNotFocus .ql-snow {
+  @apply p-[0] border-[0];
+}
+.quillNotFocus .ql-editor {
+  @apply p-0;
+}
+.quillFocus .ql-snow {
+  @apply p-[0] border-[0];
+}
+.quillFocus .ql-editor {
+  @apply p-0;
+}
+
+.quillFocus .ql-toolbar {
+  @apply p-[0] border-[1px] border-[gray] flex items-center z-50 absolute -top-[30px] left-[16px] bg-[white] shadow-[2px_2px_7px_2px_#42424256];
+}
+.quillFocus .ql-picker {
+  @apply flex items-center;
+}
+.quillFocus .ql-formats svg {
+  @apply !h-[14px] !w-[14px];
+}
+.quillFocus .ql-formats button {
+  @apply !h-[14px] !w-[20px] p-[0];
+}
+.quillFocus .ql-picker-label {
+  @apply p-[0] w-max h-max;
+}
+.quillFocus .ql-size .ql-picker {
+  @apply flex items-center;
+}
+.quillFocus .ql-size .ql-picker-label {
+  @apply w-[100px] pl-[10px];
+}
+.quillFocus .ql-picker-label svg {
+  @apply h-[14px] !w-[14px];
+}
+.quillFocus .ql-formats {
+  @apply flex items-center flex-row mr-[8px];
+}
+.quillCustom ul {
+  @apply p-0;
+}
+.quillCustom ol {
+  @apply p-0;
+}
+.quillCustom li {
+  @apply !p-0;
+}
+.quillCustom li::before {
+  @apply text-primary !text-left text-[18px] !m-[0];
+}
+.quillCustom p {
+  @apply pl-[22px];
+}
+.paragraphforPdf .ant-modal-content {
+  @apply m-0 p-0;
+}

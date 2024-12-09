@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Agent ID",
+    "dataIndex": "agentId",
+    "key": "agentId"
+  },
+  {
+    "title": "Commission Amount",
+    "dataIndex": "commissionAmount",
+    "key": "commissionAmount"
+  },
+  {
+    "title": "Bank Name",
+    "dataIndex": "bankName",
+    "key": "bankName"
+  },
+
+  {
+    "title": "Account Holder Name",
+    "dataIndex": "accountHolderName",
+    "key": "accountHolderName"
+  },
+
+  {
+    "title": "Account No",
+    "dataIndex": "accountNo",
+    "key": "accountNo"
+  },
+
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action"
+  }
+]

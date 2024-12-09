@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Selling Point Name",
+    "dataIndex": "sellingPointName",
+    "key": "sellingPointName",
+    "align": "center"
+  },
+  {
+    "title": "Selling Point Location",
+    "dataIndex": "sellingPointLocation",
+    "align": "center",
+    "key": "sellingPointLocation"
+  },
+  {
+    "title": "Project Name",
+    "dataIndex": "projectName",
+    "align": "center",
+    "key": "projectName"
+  },
+
+  {
+    "title": "Agent Name",
+    "dataIndex": "agentName",
+    "align": "center",
+    "key": "agentName"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "align": "center",
+    "key": "date"
+  },
+  {
+    "title": "Amount",
+    "dataIndex": "amount",
+    "align": "center",
+    "key": "amount"
+  },
+  {
+    "title": "Amount in Words",
+    "dataIndex": "amountInWord",
+    "align": "center",
+    "key": "amountInWord"
+  }
+]

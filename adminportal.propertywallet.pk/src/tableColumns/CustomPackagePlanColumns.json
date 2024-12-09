@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Title",
+    "dataIndex": "title",
+    "key": "title",
+    "align": ""
+  },
+  {
+    "title": "Plan Months",
+    "dataIndex": "planMonths",
+    "key": "planMonths",
+    "align": ""
+  },
+  {
+    "title": "Bd Fix Commission",
+    "dataIndex": "BdFixCommission",
+    "align": "",
+    "key": "BdFixCommission"
+  },
+  {
+    "title": "Bd No CommissionCount",
+    "dataIndex": "BdNoCommissionCount",
+    "align": "",
+    "key": "BdNoCommissionCount"
+  },
+  {
+    "title": "Bd Reg Commission",
+    "dataIndex": "BdRegCommission",
+    "align": "",
+    "key": "BdRegCommission"
+  },
+  {
+    "title": "Bd Recurring Commission",
+    "dataIndex": "BdRentalCommission",
+    "align": "",
+    "key": "BdRentalCommission"
+  },
+  {
+    "title": "Discount Percentage",
+    "dataIndex": "discountPercentage",
+    "align": "",
+    "key": "discountPercentage"
+  },
+  {
+    "title": "Fix Commision",
+    "dataIndex": "fixCommision",
+    "align": "",
+    "key": "fixCommision"
+  },
+  {
+    "title": "Monthly Rent Commision",
+    "dataIndex": "monthlyRentCommision",
+    "align": "",
+    "key": "monthlyRentCommision"
+  },
+  {
+    "title": "Reg Commision",
+    "dataIndex": "regCommision",
+    "align": "",
+    "key": "regCommision"
+  },
+  {
+    "title": "Recurring Commision",
+    "dataIndex": "rentalCommission",
+    "align": "",
+    "key": "rentalCommission"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

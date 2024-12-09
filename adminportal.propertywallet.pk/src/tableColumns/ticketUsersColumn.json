@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Name",
+      "dataIndex": "name",
+      "key": "name",
+      "align": ""
+    },
+    {
+      "title": "Email",
+      "dataIndex": "email",
+      "key": "email"
+    },
+    {
+      "title": "Phone",
+      "dataIndex": "phone",
+      "key": "phone"
+    },
+    {
+      "title": "Department",
+      "dataIndex": "department",
+      "key": "department"
+    },
+    {
+      "title": "Action",
+      "dataIndex": "action",
+      "align": "center",
+      "key": "action"
+    }
+  ]
+  

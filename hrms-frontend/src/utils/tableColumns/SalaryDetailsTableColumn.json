@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name",
+    "className": "text-column"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "key": "email",
+    "className": "text-column"
+  },
+  {
+    "title": "Designation",
+    "dataIndex": "designation",
+    "key": "designation",
+    "className": "text-column"
+  },
+  {
+    "title": "Deduction Amount",
+    "dataIndex": "deductionAmount",
+    "key": "deductionAmount",
+    "className": "text-column"
+  },
+  {
+    "title": "Payable Amount",
+    "dataIndex": "amountPayable",
+    "key": "amountPayable",
+    "className": "text-column"
+  },
+
+  {
+    "title": "Created By",
+    "dataIndex": "createdBy",
+    "key": "createdBy",
+    "className": "text-column"
+  },
+
+  {
+    "title": "Working Hours",
+    "dataIndex": "workingHours",
+    "key": "workingHours",
+    "className": "text-column"
+  },
+
+  {
+    "title": "Status",
+    "dataIndex": "status",
+    "key": "status",
+    "className": "text-column"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action",
+    "className": "text-column"
+  }
+]

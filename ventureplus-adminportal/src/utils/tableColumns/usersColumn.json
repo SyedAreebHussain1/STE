@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Name",
+      "dataIndex": "name",
+      "key": "name"
+    },
+    {
+      "title": "Company Name",
+      "dataIndex": "company",
+      "key": "company"
+    },
+    {
+      "title": "Package",
+      "dataIndex": "package",
+      "key": "package"
+    },
+    {
+      "title": "Created At",
+      "dataIndex": "createdAt",
+      "key": "createdAt"
+    }
+  ]
+  

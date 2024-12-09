@@ -1,0 +1,32 @@
+[
+  {
+    "title": "S. No",
+    "dataIndex": "sNo",
+    "key": "sNo"
+  },
+  {
+    "title": "Amount",
+    "dataIndex": "amount",
+    "key": "amount"
+  },
+  {
+    "title": "Method",
+    "dataIndex": "paymentType",
+    "key": "paymentType"
+  },
+  {
+    "title": "Transaction",
+    "dataIndex": "transactionType",
+    "key": "transactionType"
+  },
+  {
+    "title": "Transaction Reason",
+    "dataIndex": "transactionReason",
+    "key": "transactionReason"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "key": "date"
+  }
+]

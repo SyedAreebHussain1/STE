@@ -1,0 +1,15 @@
+.discount-container {
+  border-radius: 6px;
+  background: rgba(39, 163, 163, 0.05);
+  /* height: 30px; */
+}
+.support-cards-container {
+  border-radius: 8px;
+  border: 1px solid var(--colors-neutral-light-grey-3, #f0f1f3);
+  padding: 15px;
+  margin-top: 2%;
+}
+.green-background-on-button {
+  color: #fff !important;
+  background-color: #3dacac !important;
+}

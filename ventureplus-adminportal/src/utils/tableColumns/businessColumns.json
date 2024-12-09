@@ -1,0 +1,28 @@
+[
+    {
+      "title": "Business Name",
+      "dataIndex": "name",
+      "key": "name"
+    },
+    {
+        "title": "Created By",
+        "dataIndex": "user",
+        "key": "user"
+      },
+    {
+        "title": "Description",
+        "dataIndex": "description",
+        "key": "description"
+      },
+    {
+      "title": "Industry",
+      "dataIndex": "industry",
+      "key": "industry"
+    },
+    {
+      "title": "No Of Plans",
+      "dataIndex": "businessPlansCount",
+      "key": "businessPlansCount"
+    }
+  ]
+  

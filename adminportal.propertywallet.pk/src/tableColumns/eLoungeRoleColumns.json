@@ -1,0 +1,41 @@
+[
+  {
+    "title": "S.No",
+    "dataIndex": "sno",
+    "key": "sno",
+    "align": "center",
+    "width": 80
+  },
+  {
+    "title": "Title",
+    "dataIndex": "title",
+    "align": "center",
+    "key": "title"
+  },
+  {
+    "title": "Role Type",
+    "dataIndex": "roleType",
+    "align": "center",
+    "key": "roleType"
+  },
+  {
+    "title": "Sub Role Type",
+    "dataIndex": "subroleType",
+    "align": "center",
+    "key": "subroleType"
+  },
+
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "align": "center",
+    "key": "date"
+  },
+
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "center",
+    "key": "action"
+  }
+]

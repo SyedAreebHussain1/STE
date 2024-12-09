@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Inventory",
+    "dataIndex": "inventory",
+    "key": "inventory",
+    "align": "",
+    "width": 220
+  },
+  {
+    "title": "Status",
+    "dataIndex": "status",
+    "key": "status",
+    "align": ""
+  },
+  {
+    "title": "Owner Name",
+    "dataIndex": "ownerName",
+    "align": "",
+    "key": "ownerName"
+  },
+  {
+    "title": "Location",
+    "dataIndex": "location",
+    "align": "",
+    "key": "location",
+    "width": 420
+  },
+
+  {
+    "title": "City",
+    "dataIndex": "city",
+    "align": "",
+    "key": "city"
+  },
+
+  {
+    "title": "Area Size",
+    "dataIndex": "areaSize",
+    "align": "",
+    "key": "areaSize"
+  },
+
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

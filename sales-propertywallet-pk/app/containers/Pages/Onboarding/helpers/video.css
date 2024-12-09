@@ -1,0 +1,136 @@
+button.video-react-button.video-react-big-play-button.video-react-big-play-button-left {
+  display: none;
+}
+
+.video-bottom-bar {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+}
+.video-bottom-control-bar {
+  width: 100%;
+  background-color: #ffffff52;
+  height: 5px;
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+}
+.video-bottom-control-bar:hover {
+  transform: scaleY(3);
+}
+.video-bottom-seek-bar {
+  background-color: #13c2c2;
+  height: 100%;
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+}
+.video-bottom-action-btns {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.video-bottom-pause,
+.video-bottom-play {
+  cursor: pointer;
+}
+.video-bottom-pause svg,
+.video-bottom-play svg {
+  font-size: 70px;
+  color: #fff;
+}
+.video-bottom-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.cta-book-now {
+  background-color: #13c2c2;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  padding: 16px 40px;
+  font-size: 18px;
+  border-radius: 46px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.cta-book-now::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%) rotate(45deg);
+  transition: 0.5s;
+}
+
+.cta-book-now:hover::before {
+  transform: translateX(100%) rotate(45deg);
+}
+.video-bottom-fillscreen-btn {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+.video-bottom-fillscreen-btn svg {
+  fill: black;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 60px;
+  cursor: pointer;
+}
+.video-bottom-time-lapse {
+  font-size: 16px;
+  color: #fff;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+.video-bottom-time-lapse .video-time-lapse,
+.video-bottom-time-lapse .sound-slider {
+  flex: 1;
+}
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 1000px) {
+
+  .video-bottom-time-lapse {
+    flex-direction: column;
+   }
+}
+@media only screen and (max-width: 600px) {
+  .video-bottom-pause svg,
+  .video-bottom-play svg,
+  .video-bottom-fillscreen-btn svg {
+    font-size: 40px;
+  }
+  .video-bottom-time-lapse {
+    font-size: 10px;
+  }
+  .video-bottom-bar {
+    height: 170px;
+  }
+  .cta-book-now {
+    font-size: 14px;
+    padding: 12px 17px;
+  }
+}
+.pac-container.pac-logo {
+  z-index: 9999;
+}

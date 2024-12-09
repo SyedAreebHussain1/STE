@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Notification Type",
+    "dataIndex": "notificationType",
+    "key": "notificationType",
+    "align": "center"
+  },
+  {
+    "title": "Title",
+    "dataIndex": "title",
+    "key": "title",
+    "align": "center"
+  },
+  {
+    "title": "User Group",
+    "dataIndex": "userGroup",
+    "align": "",
+    "key": "userGroup"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "align": "",
+    "key": "date"
+  },
+  {
+    "title": "Time",
+    "dataIndex": "time",
+    "align": "",
+    "key": "time"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

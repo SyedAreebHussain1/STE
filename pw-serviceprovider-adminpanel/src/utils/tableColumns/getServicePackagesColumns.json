@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Title",
+    "dataIndex": "title",
+    "key": "title",
+    "className": "text-column"
+  },
+  {
+    "title": "No of Months",
+    "dataIndex": "numberOfMonth",
+    "key": "numberOfMonth",
+    "className": "text-column"
+  },
+  {
+    "title": "Package Plans",
+    "dataIndex": "packagePlans",
+    "key": "packagePlans",
+    "className": "text-column"
+  },
+  {
+    "title": "Percentage",
+    "dataIndex": "comissionPercentage",
+    "key": "comissionPercentage",
+    "className": "text-column"
+  },
+  {
+    "title": "Charges",
+    "dataIndex": "charges",
+    "key": "charges",
+    "className": "text-column"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "createdAt",
+    "key": "createdAt",
+    "className": "text-column"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action",
+    "className": "text-column"
+  }
+]

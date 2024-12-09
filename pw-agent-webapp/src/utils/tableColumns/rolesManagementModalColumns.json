@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Permissions",
+    "dataIndex": "permissions",
+    "key": "permissions"
+  },
+  {
+    "title": "Write",
+    "dataIndex": "write",
+    "key": "write"
+  },
+  {
+    "title": "Update",
+    "dataIndex": "update",
+    "key": "update"
+  },
+  {
+    "title": "Delete",
+    "dataIndex": "delete",
+    "key": "delete"
+  },
+  {
+    "title": "Read",
+    "dataIndex": "read",
+    "key": "read"
+  }
+]

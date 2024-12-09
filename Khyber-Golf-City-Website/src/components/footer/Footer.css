@@ -1,0 +1,106 @@
+section#footer {
+  background-position: center; 
+  background-size:cover;
+  /* background-color: #023E3E;; */
+  background-image: url("../../components/images/marbel.jpg");
+  /* color: #fff; */
+  border-top: 4px solid #d69929;
+}
+.FooterBg {
+  background-position: center; 
+  background-size:cover;
+  background-image: url("../../components/images/marbel.jpg");
+  border-top: 7px solid #d69929;
+  /* border-bottom: 8px solid #d69929; */
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+/* .footer > * {
+  flex: 1;
+  justify-self: center;
+} */
+
+.footer h4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.footer-box .footer-links a {
+  font-size: 1.2rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contact p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+
+
+/* areeb */
+
+/* Create four equal columns that floats next to each other */
+
+.marginleft-2per,
+ .marginright-2per{
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+}
+.marginleft-6{
+  margin-left: 6%;
+}
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  /* height: 300px;  */
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+  }
+  .marginleft-2per,
+ .marginright-2per{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.marginleft-6{
+  margin-left: 0;
+}
+}
+@media screen and (max-width: 800px) {
+  .column1 {
+    width: 100%;
+  }
+   .marginleft-2per,
+ .marginright-2per{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.marginleft-6{
+  margin-left: 0;
+}
+}
+/* areeb */

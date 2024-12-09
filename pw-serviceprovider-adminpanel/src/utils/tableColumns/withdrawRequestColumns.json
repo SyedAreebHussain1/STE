@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Sno",
+    "dataIndex": "sno",
+    "key": "sno",
+    "className": "text-column"
+  },
+  {
+    "title": "Amount",
+    "dataIndex": "amount",
+    "key": "amount",
+    "className": "text-column"
+  },
+  {
+    "title": "Account Title",
+    "dataIndex": "accountTitle",
+    "key": "accountTitle",
+    "className": "text-column"
+  },
+  {
+    "title": "Account Number",
+    "dataIndex": "accountNumber",
+    "key": "accountNumber",
+    "className": "text-column"
+  },
+  {
+    "title": "Bank Name",
+    "dataIndex": "bankName",
+    "key": "bankName",
+    "className": "text-column"
+  },
+  {
+    "title": "Withdraw Date",
+    "dataIndex": "withdrawDate",
+    "key": "withdrawDate",
+    "className": "text-column"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action",
+    "className": "text-column"
+  }
+]

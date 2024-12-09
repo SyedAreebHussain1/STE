@@ -1,0 +1,160 @@
+.headerRightComponentBgColor {
+  background: linear-gradient(rgba(62, 208, 214, 0.2), rgba(46, 34, 69, 1));
+}
+.websiteTopBackgroundColor {
+  background: linear-gradient(#1e1e1e 70%, #3d246e);
+}
+.headerLeftComponentfirstButtonClipPath {
+  clip-path: path("M 0 0 L 250,0 Q 265 0 280 30 Q 302 70 320 80 l -320 30 z");
+  /* clip-path: polygon(0 0, 80% 0, 100% 120%, 0% 120%); */
+}
+.headerLeftComponentsecondButtonClipPath {
+  clip-path: path(
+    "M 70 0 L 290,0 Q 305 0 320 30 Q 342 70 360 80 l -180 0 M 70 0 Q 55 0 40 30 Q 18 70 0 80 l 180 0  z"
+  );
+
+  /* clip-path: polygon(20% 0, 80% 0, 100% 120%, 0% 120%); */
+}
+.headerLeftComponentthiredButtonClipPath {
+  clip-path: path("M 70 0 Q 55 0 40 30 Q 18 70 0 80 l 360 30 l 0 -360 ");
+  /* clip-path: polygon(20% 0, 100% 0, 100% 120%, 0% 120%); */
+}
+.websitesecondBackgroundColor {
+  background: linear-gradient(#3c246c, #166266);
+}
+.founderComponentClipPath {
+  clip-path: path("M 0 0 L 245,0 Q 265 0 280 23 Q 302 58 320 65 l -320 30 z");
+  /* clip-path: polygon(0 0, 80% 0, 100% 120%, 0% 120%); */
+}
+.founderTextColor {
+  background: linear-gradient(100deg, #7c4bde 10%, #3ed0d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.websiteThiredBackgroundColor {
+  background: linear-gradient(#1e1e1e, #222610, #5e6f1b);
+}
+.serviceProvideFirstBackgroundColor {
+  background: linear-gradient(rgba(124, 75, 222, 1), rgba(0, 0, 0, 0.42));
+}
+
+.serviceProvideSecondBackgroundColor {
+  background: linear-gradient(rgba(204, 254, 6, 1), rgba(0, 0, 0, 0.3));
+}
+.serviceProvidethiredBackgroundColor {
+  background: linear-gradient(rgba(62, 208, 214, 1), rgba(0, 0, 0, 0.42));
+}
+.serviceProvideforthBackgroundColor {
+  background: linear-gradient(#1e1e1e, #0f686c, #3c1c66);
+}
+
+.buttonborderAnimation {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 0px 0px #55c1c5;
+}
+.buttonborderAnimation:hover {
+  box-shadow: 0 0 5px 2px #55c1c5;
+}
+.buttonborderAnimation:hover::after {
+  box-shadow: 0 0 5px 5px #55c1c5;
+}
+.buttonborderAnimation::before {
+  content: " ";
+  background-image: linear-gradient(transparent, #55c1c5, transparent);
+  left: 50%;
+  width: 75%;
+  height: 100%;
+  position: absolute;
+  animation: rotationButtonAnimation 3s linear infinite;
+  transform-origin: left;
+}
+.buttonborderAnimation::after {
+  transition: all 0.4s ease;
+  box-shadow: 0 0 0px 0px #55c1c5;
+  content: "Apply now";
+  width: 98%;
+  height: 92%;
+  position: absolute;
+  background: #101010;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+@keyframes rotationButtonAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.serviceWeProvideProgressBar .serviceWeProvideProgressBarcircle {
+  transform: rotate(90deg);
+}
+.serviceWeProvideProgressBar .serviceWeProvideProgressBarcircle circle {
+  animation: progressBarAnimation 0.4s linear forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes progressBarAnimation {
+  0% {
+    stroke-dashoffset: 472;
+  }
+  100% {
+    stroke-dashoffset: 320;
+  }
+}
+.CreateStructureModalCss .ant-modal-content {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: #1e1e1e;
+  background-image: linear-gradient(to right, #333 1px, transparent 1px),
+    linear-gradient(to bottom, #333 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+.CreateStructureModalCss .ant-modal-header {
+  display: none;
+}
+
+.d-print-block-h1 {
+  display: none;
+}
+
+@page {
+  size: A4 !important;
+}
+@media print {
+  .d-print-block {
+    width: 1400px;
+    height: 90vh;
+  }
+  .d-print-block-h1 {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+  }
+
+  .d-print-block > .d-print-block-div {
+    position: relative;
+    left: -80px;
+    transform: scale(0.9);
+  }
+}

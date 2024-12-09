@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Client Name",
+    "dataIndex": "clientName",
+    "key": "clientName",
+    "align": ""
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "key": "email",
+    "align": ""
+  },
+  {
+    "title": "Phone",
+    "dataIndex": "phone",
+    "align": "",
+    "key": "phone"
+  },
+  {
+    "title": "Vouchers code",
+    "dataIndex": "vouchersCode",
+    "align": "",
+    "key": "vouchersCode"
+  },
+  {
+    "title": "Checkout Amount",
+    "dataIndex": "checkoutAmount",
+    "align": "",
+    "key": "checkoutAmount"
+  },
+  {
+    "title": "Package Features",
+    "dataIndex": "packageFeature",
+    "align": "",
+    "key": "packageFeature"
+  },
+  {
+    "title": "Ref Code",
+    "dataIndex": "refCode",
+    "align": "",
+    "key": "refCode"
+  },
+  {
+    "title": "IsRedeem",
+    "dataIndex": "isRedeem",
+    "align": "",
+    "key": "isRedeem"
+  }
+]

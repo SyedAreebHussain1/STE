@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name",
+    "className": "text-column"
+  },
+  {
+    "title": "Department",
+    "dataIndex": "department",
+    "key": "department",
+    "className": "text-column"
+  },
+  {
+    "title": "Evaluation Skill",
+    "dataIndex": "evaluationSkill",
+    "key": "evaluationSkill",
+    "className": "text-column"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action",
+    "className": "text-column"
+  }
+]

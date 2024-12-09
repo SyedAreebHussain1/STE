@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name",
+    "align": ""
+  },
+  {
+    "title": "Status",
+    "dataIndex": "status",
+    "key": "status",
+    "align": ""
+  },
+  {
+    "title": "Rating",
+    "dataIndex": "rating",
+    "key": "rating",
+    "align": ""
+  },
+  {
+    "title": "Description",
+    "dataIndex": "description",
+    "key": "description",
+    "align": ""
+  },
+  {
+    "title": "Project Name",
+    "dataIndex": "projectTitle",
+    "key": "projectTitle",
+    "align": ""
+  },
+  {
+    "title": "Project Size",
+    "dataIndex": "projectSize",
+    "align": "center",
+    "key": "projectSize"
+  },
+  {
+    "title": "Project Category",
+    "dataIndex": "projectCategory",
+    "align": "center",
+    "key": "projectCategory"
+  },
+  {
+    "title": "Project Complete Time",
+    "dataIndex": "projectCompleteTime",
+    "align": "center",
+    "key": "projectCompleteTime"
+  },
+  {
+    "title": "Location",
+    "dataIndex": "location",
+    "align": "center",
+    "key": "location"
+  },
+
+  {
+    "title": "Date",
+    "dataIndex": "createdAt",
+    "align": "center",
+    "key": "createdAt"
+  }
+]

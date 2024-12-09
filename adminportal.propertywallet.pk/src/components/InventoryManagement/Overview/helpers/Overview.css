@@ -1,0 +1,50 @@
+#customers {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  padding: 8px;
+}
+
+/* #customers tr:hover {
+    background-color: #ddd;
+} */
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  /* background-color: #667085; */
+  color: #667085;
+}
+
+.m-l-m-r {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.c-o-main {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  height: 300px;
+}
+
+.r-o-main:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .c-o-main {
+    width: 100%;
+  }
+
+  .m-l-m-r {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Inventory",
+    "dataIndex": "inventory",
+    "key": "inventory",
+    "align": ""
+  },
+  {
+    "title": "Agency",
+    "dataIndex": "agency",
+    "key": "agency",
+    "align": ""
+  },
+
+  {
+    "title": "Client Name",
+    "dataIndex": "clientName",
+    "align": "",
+    "key": "clientName"
+  },
+  {
+    "title": "Location",
+    "dataIndex": "location",
+    "align": "",
+    "key": "location"
+  },
+  {
+    "title": "Selling Price",
+    "dataIndex": "sellingPrice",
+    "key": "sellingPrice",
+    "align": ""
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

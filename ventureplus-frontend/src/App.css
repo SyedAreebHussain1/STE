@@ -1,0 +1,80 @@
+:root[data-theme="dark"] {
+  --ant-primary-color: #1890ff;
+  --ant-primary-color-hover: #40a9ff;
+  --ant-primary-color-active: #096dd9;
+  --ant-primary-1: #e6f7ff;
+  --ant-primary-2: #bae7ff;
+  --ant-primary-3: #91d5ff;
+  --ant-primary-4: #69c0ff;
+  --ant-primary-5: #40a9ff;
+  --ant-primary-6: #1890ff;
+  --ant-primary-7: #096dd9;
+  --ant-primary-8: #0050b3;
+  --ant-primary-9: #003a8c;
+  --ant-primary-10: #002766;
+}
+
+body {
+  background-color: var(--ant-layout-body-background);
+  transition: background-color 0.3s;
+  scroll-behavior: smooth !important;
+}
+
+[data-theme="dark"] body {
+  --ant-layout-body-background: #1e1e1e !important;
+  color: #fff;
+}
+.websiteLinearGradientGreen {
+  background-image: linear-gradient(to right, #01555a, #67a6a9);
+}
+.onBoardingSelectClassForbg .ant-select-selector {
+  background: #FFFFFF !important;
+}
+.questionProgressBar {
+  position: relative;
+}
+.questionProgressBar::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(transparent, transparent) padding-box,
+    conic-gradient(
+        white 0deg,
+        white 1deg,
+        transparent 3deg,
+        transparent 43deg,
+        white 45deg,
+        white 48deg,
+        transparent 50deg,
+        transparent 88deg,
+        white 90deg,
+        white 93deg,
+        transparent 95deg,
+        transparent 133deg,
+        white 135deg,
+        white 138deg,
+        transparent 140deg,
+        transparent 178deg,
+        white 180deg,
+        white 183deg,
+        transparent 185deg,
+        transparent 223deg,
+        white 225deg,
+        white 228deg,
+        transparent 230deg,
+        transparent 268deg,
+        white 270deg,
+        white 273deg,
+        transparent 275deg,
+        transparent 313deg,
+        white 315deg,
+        white 318deg,
+        transparent 320deg,
+        transparent 357deg,
+        white 358deg
+      )
+      border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+}

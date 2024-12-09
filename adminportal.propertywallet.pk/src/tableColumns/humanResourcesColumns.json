@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Freelancer Names",
+    "dataIndex": "freelancerName",
+    "key": "freelancerName"
+  },
+  {
+    "title": "Address",
+    "dataIndex": "address",
+    "key": "address"
+  },
+  {
+    "title": "Referral Code",
+    "dataIndex": "referralCode",
+    "key": "referralCode"
+  },
+  {
+    "title": "Total Subscription",
+    "dataIndex": "totalSubscription",
+    "key": "totalSubscription"
+  },
+  {
+    "title": "Signup Count",
+    "dataIndex": "signupCount",
+    "key": "signupCount"
+  },
+  {
+    "title": "Phone No",
+    "dataIndex": "phoneNo",
+    "key": "phoneNo"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "key": "email"
+  },
+  {
+    "title": "isSuspended",
+    "dataIndex": "isSuspendid",
+    "key": "isSuspendid"
+  },
+  {
+    "title": "isVerified",
+    "dataIndex": "isVerified",
+    "key": "isVerified"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action"
+  }
+]

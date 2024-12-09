@@ -1,0 +1,104 @@
+.hierarchy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hierarchy-item {
+  position: relative;
+  width: 100%;
+}
+
+.hierarchy-children {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.hierarchy-connector {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.hierarchy-connector::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  width: 2px;
+  height: 12px;
+  transform: translateX(-50%);
+  background-color: gray; /* Remove the vertical line above each child */
+}
+.hierarchy-children-hr {
+  position: relative;
+  border: 0;
+  outline: none;
+}
+.hierarchy-children-hr::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: 2px;
+  height: 12px;
+  transform: translateX(-50%);
+
+  background-color: gray; /* Remove the vertical line above each child */
+}
+.hierarchy-children > *:first-child {
+  position: relative;
+}
+.hierarchy-children > *:first-child::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 25%;
+  width: 50%;
+  height: 12px;
+  border-right: 2px solid gray;
+  transform: translateX(-50%);
+
+  background-color: white;
+}
+
+/* .hierarchy-children > *:not(:first-child) {
+  
+  margin-left: 20px; 
+} */
+
+.hierarchy-children > *:last-child {
+  position: relative;
+}
+.hierarchy-children > *:last-child::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 75%;
+  width: 50%;
+  height: 12px;
+  border-left: 2px solid gray;
+  transform: translateX(-50%);
+  background-color: white;
+}
+/* .hierarchy-children > *:last-child {
+  margin-right: 0;
+} */
+.hierarchy-children::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  /* background-color: gray; Remove the horizontal line connecting the children */
+}
+
+.hierarchy-item > div {
+  width: 100%;
+}

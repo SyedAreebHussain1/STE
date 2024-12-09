@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name",
+    "className": "text-column"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "key": "email",
+    "className": "text-column"
+  },
+  {
+    "title": "Phone No",
+    "dataIndex": "phoneNo",
+    "key": "phoneNo",
+    "className": "text-column"
+  },
+  {
+    "title": "Created At",
+    "dataIndex": "createdAt",
+    "key": "createdAt",
+    "className": "text-column"
+  },
+  {
+    "title": "Comment",
+    "dataIndex": "comment",
+    "key": "comment",
+    "className": "comment"
+  }
+]

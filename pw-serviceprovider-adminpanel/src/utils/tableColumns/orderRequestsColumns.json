@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Customer Name",
+    "dataIndex": "customerName",
+    "key": "customerName"
+  },
+  {
+    "title": "Phone no",
+    "dataIndex": "phoneNo",
+    "key": "phoneNo"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "key": "email"
+  },
+  {
+    "title": "Service Title",
+    "dataIndex": "serviceTitle",
+    "key": "serviceTitle"
+  },
+  {
+    "title": "Created At",
+    "dataIndex": "createdAt",
+    "key": "createdAt"
+  }
+]

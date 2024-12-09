@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name"
+  },
+  {
+    "title": "CNIC",
+    "dataIndex": "cnic",
+    "key": "cnic"
+  },
+  {
+    "title": "Phone No",
+    "dataIndex": "phoneNo",
+    "key": "phoneNo"
+  },
+  {
+    "title": "Location",
+    "dataIndex": "location",
+    "key": "location"
+  },
+
+  {
+    "title": "Agent Name",
+    "dataIndex": "agentName",
+    "key": "agentName"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "key": "date"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Product",
+    "dataIndex": "product",
+    "key": "product",
+    "align": "center"
+  },
+  {
+    "title": "Agency",
+    "dataIndex": "agency",
+    "align": "",
+    "key": "agency"
+  },
+  {
+    "title": "Project Name",
+    "dataIndex": "projectName",
+    "align": "",
+    "key": "projectName"
+  },
+  {
+    "title": "Lead Name",
+    "dataIndex": "leadName",
+    "align": "",
+    "key": "leadName"
+  },
+  {
+    "title": "CNIC",
+    "dataIndex": "CNIC",
+    "align": "",
+    "key": "CNIC"
+  },
+  {
+    "title": "Phone No",
+    "dataIndex": "phoneNo",
+    "align": "",
+    "key": "phoneNo"
+  },
+  {
+    "title": "Added By",
+    "dataIndex": "addedBy",
+    "align": "",
+    "key": "addedBy"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

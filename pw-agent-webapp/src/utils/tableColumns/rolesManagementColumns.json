@@ -1,0 +1,22 @@
+[
+  {
+    "title": "ID",
+    "dataIndex": "id",
+    "key": "id"
+  },
+  {
+    "title": "Role Title",
+    "dataIndex": "roleTitle",
+    "key": "roleTitle"
+  },
+  {
+    "title": "Create Date",
+    "dataIndex": "createDate",
+    "key": "createDate"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action"
+  }
+]

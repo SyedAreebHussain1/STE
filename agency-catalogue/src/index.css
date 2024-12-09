@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins" !important;
+}
+.paginationInInventories .ant-pagination-item-active a {
+  background-color: #191f2b;
+  color: white;
+}
+.paginationInInventories .ant-pagination-item-active a:hover {
+  color: white;
+}
+.paginationInInventories .ant-pagination-item-active:hover {
+  border: 1px solid #191f2b;
+}
+.paginationInInventories .ant-pagination-item-active {
+  border: 1px solid #191f2b;
+  overflow: hidden;
+}
+.paginationInInventories li {
+  border: 1px solid rgba(196, 196, 196, 0.863);
+}
+.paginationInInventories .ant-pagination-item {
+  border: 1px solid rgba(196, 196, 196, 0.863);
+}

@@ -1,0 +1,322 @@
+$primary: #ffb535;
+$text-color: #363738;
+// body {
+//   background: #eee;
+// }
+.pfdate__box {
+  position: absolute;
+  text-align: left;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   justify-content: center;
+  color: #ccc;
+  //   border: 4px solid;
+  //   font-weight: bold;
+  padding: 5px 5px;
+  .pfdate__day {
+    font-size: 22px;
+  }
+}
+.pfblog-card {
+  padding: 30px;
+  position: relative;
+  .pfdate__box {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: 300ms ease-in-out;
+  }
+  .pfblog-card__background,
+  .pfcard__background--layer {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .pfblog-card__background {
+    padding: 10px;
+    background: #f0f0f0;
+    // box-shadow: 5 3px 7px 5px rgba(#000, 0.5);
+    // height: 120vh;
+  }
+  .pfcard__background--wrapper {
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 70%);
+    position: relative;
+    overflow: hidden;
+  }
+  .pfcard__background--main {
+    background-image: url(../specialprojects/1.jpg);
+    height: 100%;
+    // object-fit: cover;
+    position: relative;
+    transition: 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // object-fit: fill;
+    background-position: center;
+
+  }
+  .pfcard__background--main2 {
+    background-image: url(../specialprojects/2.jpg);
+    height: 100%;
+    // object-fit: cover;
+    position: relative;
+    transition: 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -200px center;
+  }
+  .pfcard__background--main3 {
+    background-image: url(../specialprojects/3.jpg);
+    height: 100%;
+    // object-fit: cover;
+    position: relative;
+    transition: 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pfcard__background--main4 {
+    background-image: url(../specialprojects/4.jpg);
+    height: 100%;
+    // object-fit: cover;
+    position: relative;
+    transition: 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pfcard__background--main5 {
+    background-image: url(../specialprojects/5.jpg);
+    height: 100%;
+    // object-fit: cover;
+    position: relative;
+    transition: 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pfcard__background--main6 {
+    background-image: url(../specialprojects/6.jpg);
+    height: 100%;
+    // object-fit: cover;
+    position: relative;
+    transition: 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pfcard__background--main7 {
+    background-image: url(../specialprojects/7.jpg);
+    height: 100%;
+    // object-fit: cover;
+    position: relative;
+    transition: 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pfcard__background--main8 {
+    background-image: url(../specialprojects/8.jpg);
+    height: 100%;
+    // object-fit: cover;
+    position: relative;
+    transition: 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pfcard__background--main9 {
+    background-image: url(../specialprojects/9.jpg);
+    height: 100%;
+    // object-fit: cover;
+    position: relative;
+    transition: 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pfcard__background--main10 {
+    background-image: url(../specialprojects/10.jpg);
+    height: 100%;
+    // object-fit: cover;
+    position: relative;
+    transition: 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -200px center;
+  }
+  .pfcard__background--layer {
+    z-index: 0;
+    opacity: 0;
+    // background: rgba(255, 255, 255, 0.4);
+    background: rgba(#333, 0.9);
+    transition: 300ms ease-in-out;
+  }
+  .pfblog-card__head {
+    height: 300px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+  }
+  .pfblog-card__info {
+    z-index: 10;
+    background: white;
+    padding: 20px 15px;
+    h2 {
+      transition: 300ms ease-in-out;
+    }
+  }
+  &:hover {
+    .pfdate__box {
+      opacity: 1;
+      transform: scale(1);
+    }
+    .pfcard__background--main {
+      transform: scale(1.2) rotate(5deg);
+    }
+    .pfcard__background--main2 {
+      transform: scale(1.2) rotate(5deg);
+    }.pfcard__background--main3{
+      transform: scale(1.2) rotate(5deg);
+    }.pfcard__background--main4{
+      transform: scale(1.2) rotate(5deg);
+    }.pfcard__background--main5{
+      transform: scale(1.2) rotate(5deg);
+    }.pfcard__background--main6{
+      transform: scale(1.2) rotate(5deg);
+    }.pfcard__background--main7{
+      transform: scale(1.2) rotate(5deg);
+    }.pfcard__background--main8{
+      transform: scale(1.2) rotate(5deg);
+    }.pfcard__background--main9{
+      transform: scale(1.2) rotate(5deg);
+    }.pfcard__background--main10{
+      transform: scale(1.2) rotate(5deg);
+    }
+    .pfcard__background--layer {
+      opacity: 1;
+    }
+    .pfblog-card__info {
+      h2 {
+        color: $primary;
+      }
+    }
+  }
+}
+
+a.pficon-link {
+  color: $text-color;
+  transition: 200ms ease-in-out;
+  i {
+    color: $primary;
+  }
+  &:hover {
+    color: $primary;
+    text-decoration: none;
+  }
+}
+.pfu-text-small-card {
+  font-size: 1.7rem;
+  line-height: 1.4;
+  text-align: left;
+  margin-left: 0;
+  margin-right: 3%;
+  margin-top: 2%;
+  font-weight: 400;
+}
+.pfu-text-small-card-ur {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  text-align: right;
+  margin-left: 1%;
+  margin-right: 4%;
+  margin-top: 2%;
+  font-weight: 400;
+}
+.pfheading-card-en {
+  text-align: center;
+  position: relative;
+  // left: -5px;
+}
+.pfheading-card-ur {
+  text-align: center;
+}
+.pfsubtext-en {
+  font-size: 1.3rem;
+  text-align: left;
+  margin-top: 10;
+}
+.pfsubtext-ur {
+  font-size: 1.5rem;
+  text-align: right;
+  margin-top: 14;
+}
+.pfcardbtn {
+  background: white;
+  color: $text-color;
+  font-weight: bold;
+  outline: none;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border-radius: 0;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  padding: 0;
+  border: none;
+  &:focus {
+    box-shadow: none;
+  }
+  &:hover {
+    background: $primary;
+    color: #fff;
+  }
+  &.pfcardbtn--with-icon {
+    padding-right: 20px;
+    i {
+      padding: 0px 30px 0px 15px;
+      margin-right: 10px;
+      height: 50px;
+      line-height: 50px;
+      vertical-align: bottom;
+      color: white;
+      background: $primary;
+      clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+    }
+  }
+  &.pfcardbtn--only-icon {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  //   .pfcard__background--main {
+  //     background-image: url(../../images/mob2.jpg) !important;
+  //   }
+  //   .pfcard__background--main2 {
+  //     background-image: url(../../images/mob1.jpg) !important;
+  //   }
+  .pfu-text-small-card {
+    font-size: 1.3rem !important;
+    line-height: 1.4 !important;
+    font-weight: 200 !important;
+    text-align: left !important;
+    margin-left: 0 !important;
+    margin-right: 3% !important;
+    margin-top: 2% !important;
+  }
+  .pfu-text-small-card-ur {
+    font-size: 1.3rem !important;
+    line-height: 1.4 !important;
+    text-align: right !important;
+    margin-left: 1% !important;
+    margin-right: 10% !important;
+    margin-top: 2% !important;
+    font-weight: 400 !important;
+  }
+  .pfheading-card-en {
+    // text-align: center;
+    margin-left: -10% !important;
+  }
+  .pfheading-card-ur {
+    // text-align: center !important;
+    margin-right: 8% !important;
+  }
+}

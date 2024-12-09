@@ -1,0 +1,18 @@
+[
+  {
+    "title": "S.No",
+    "dataIndex": "sno",
+    "key": "sno"
+  },
+  {
+    "title": "Title",
+    "dataIndex": "title",
+    "key": "title"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "createdAt",
+    "key": "createdAt"
+  },
+  { "title": "Action", "dataIndex": "action", "key": "action" }
+]

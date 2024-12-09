@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name",
+    "align": "center"
+  },
+  {
+    "title": "Phone No",
+    "dataIndex": "phoneNo",
+    "align": "center",
+    "key": "phoneNo"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "align": "center",
+    "key": "email"
+  },
+  {
+    "title": "Verification Code",
+    "dataIndex": "verficationcode",
+    "align": "center",
+    "key": "verficationcode"
+  },
+  {
+    "title": "Agency",
+    "dataIndex": "agency",
+    "key": "agency",
+    "align": "",
+    "width": 220
+  },
+  {
+    "title": "Joining Date",
+    "dataIndex": "joiningDate",
+    "key": "joiningDate",
+    "align": "",
+    "width": 220
+  },
+  {
+    "title": "Joining Time",
+    "dataIndex": "joiningTime",
+    "key": "joiningTime",
+    "align": "",
+    "width": 220
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Evaluation",
+    "dataIndex": "evaluation",
+    "key": "Evaluation",
+    "className": "text-column"
+  },
+  {
+    "title": "Department",
+    "dataIndex": "department",
+    "key": "Department",
+    "className": "text-column"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action",
+    "className": "text-column"
+  }
+]

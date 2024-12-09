@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Inventory Name",
+    "dataIndex": "inventoryName",
+    "key": "inventoryName",
+    "align": ""
+  },
+  {
+    "title": "Location",
+    "dataIndex": "location",
+    "align": "",
+    "key": "location"
+  },
+  {
+    "title": "Area Size",
+    "dataIndex": "areaSize",
+    "align": "",
+    "key": "areaSize"
+  },
+  {
+    "title": "Property Type",
+    "dataIndex": "propertyType",
+    "align": "",
+    "key": "propertyType"
+  },
+  {
+    "title": "Property Sub-Type",
+    "dataIndex": "propertySubType",
+    "align": "",
+    "key": "propertySubType"
+  },
+  {
+    "title": "Price",
+    "dataIndex": "price",
+    "align": "",
+    "key": "price"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

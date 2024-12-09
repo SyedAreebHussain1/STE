@@ -1,0 +1,47 @@
+[
+  {
+    "title": "ID",
+    "dataIndex": "id",
+    "key": "id",
+    "align": "center",
+    "width": 80
+  },
+  {
+    "title": "Module Name",
+    "dataIndex": "modulename",
+    "align": "center",
+    "key": "modulename",
+    "width": 200
+  },
+  {
+    "title": "Module",
+    "dataIndex": "module",
+    "align": "center",
+    "key": "module"
+  },
+
+  {
+    "title": "Add",
+    "dataIndex": "write",
+    "align": "center",
+    "key": "write"
+  },
+  {
+    "title": "Read",
+    "dataIndex": "read",
+    "align": "center",
+    "key": "read"
+  },
+  {
+    "title": "Update",
+    "dataIndex": "update",
+    "align": "center",
+    "key": "update"
+  },
+  {
+    "title": "Delete",
+    "dataIndex": "delete",
+    "align": "center",
+    "key": "delete"
+  }
+]

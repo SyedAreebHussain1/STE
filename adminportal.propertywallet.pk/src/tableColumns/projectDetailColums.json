@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Project Name",
+    "dataIndex": "projectName",
+    "key": "projectName",
+    "align": ""
+  },
+  {
+    "title": "Status",
+    "dataIndex": "status",
+    "key": "status",
+    "align": ""
+  },
+  {
+    "title": "No of inventories",
+    "dataIndex": "inventories",
+    "align": "",
+    "key": "inventories",
+    "width": 20
+  },
+  {
+    "title": "Builder Name",
+    "dataIndex": "builderName",
+    "align": "",
+    "key": "builderName"
+  },
+  {
+    "title": "Location",
+    "dataIndex": "location",
+    "align": "",
+    "key": "location"
+  },
+  {
+    "title": "City",
+    "dataIndex": "city",
+    "key": "city",
+    "align": ""
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

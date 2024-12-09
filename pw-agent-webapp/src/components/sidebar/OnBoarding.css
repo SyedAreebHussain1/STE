@@ -1,0 +1,20 @@
+.onboarding-container {
+  transition: all 0.1s ease-in-out;
+  transform: scaleY(0);
+  transform-origin: top;
+  opacity: 0;
+}
+
+.onboarding-container-active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.onboarding-hover {
+  background-color: var(--primary-color) !important;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.onboarding-hover * {
+  color: #fff !important;
+}

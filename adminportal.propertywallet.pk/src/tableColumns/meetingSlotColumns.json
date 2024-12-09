@@ -1,0 +1,62 @@
+[
+  {
+    "title": "S No.",
+    "dataIndex": "sno",
+    "key": "sno"
+  },
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name",
+    "align": "center"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "align": "",
+    "key": "email"
+  },
+  {
+    "title": "Phone",
+    "dataIndex": "phone",
+    "align": "",
+    "key": "phone"
+  },
+
+  {
+    "title": "Meeting Subject",
+    "dataIndex": "meetingSubject",
+    "align": "",
+    "key": "meetingSubject"
+  },
+  {
+    "title": "Description",
+    "dataIndex": "description",
+    "align": "",
+    "key": "description"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "align": "",
+    "key": "date"
+  },
+  {
+    "title": "Start Time",
+    "dataIndex": "startTime",
+    "align": "",
+    "key": "startTime"
+  },
+  {
+    "title": "End Time",
+    "dataIndex": "endTime",
+    "align": "",
+    "key": "endTime"
+  },
+  {
+    "title": "FeedBack",
+    "dataIndex": "feedBack",
+    "align": "",
+    "key": "feedBack"
+  }
+]

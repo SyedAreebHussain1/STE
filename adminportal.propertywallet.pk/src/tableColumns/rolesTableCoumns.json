@@ -1,0 +1,34 @@
+[
+  {
+    "title": "ID",
+    "dataIndex": "id",
+    "key": "id",
+    "align": "center",
+    "width": 80
+  },
+  {
+    "title": "Users",
+    "dataIndex": "users",
+    "align": "center",
+    "key": "users"
+  },
+  {
+    "title": "Title",
+    "dataIndex": "title",
+    "align": "center",
+    "key": "title"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "align": "center",
+    "key": "date"
+  },
+
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "center",
+    "key": "action"
+  }
+]

@@ -1,0 +1,204 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+body {
+  font-family: 'Poppins';
+}
+
+/* table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+
+.bold {
+  font-weight: bold !important;
+}
+html {
+  font-family: 'Poppins';
+}
+/* .input-container {
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin-bottom: 15px;
+  border-radius: 9px;
+  background-color: #F9FAFB;
+}
+
+.icon {
+  padding: 10px;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0px;
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background: transparent;
+}
+
+.input-field:focus {
+  outline: none !important;
+  border-top-style: hidden !important;
+  border-right-style: hidden !important;
+  border-left-style: hidden !important;
+  border-bottom-style: hidden !important;
+}
+
+
+.btn-signin {
+  background-color: #27A3A3;
+  border-radius: 8px;
+  color: #FFFFFF;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.btn-signin:hover {
+  opacity: 1;
+}
+
+.btn-signin-div {
+  margin-top: 6%;
+}
+
+.flex-block {
+  display: flex;
+}
+
+.login-colum-one {
+  width: 100%;
+}
+
+.login-colum-two {
+  width: 100% !important;
+  background: #27A3A3 !important;
+}
+
+.remember-me {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.Effortlessly {
+  font-weight: bold;
+  color: #2B2B2B;
+  font-size: 2rem;
+}
+
+.started {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2B2B2B;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.welcome {
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.input-lable {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #667085;
+  margin-bottom: 4px;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+  .flex-block {
+    display: block;
+  }
+  .input-container {
+  }
+
+  .btn {
+  }
+
+  .login-colum-one {
+  }
+}
+
+@media screen and (max-width: 600px) {} */
+
+/* login */

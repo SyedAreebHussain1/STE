@@ -1,0 +1,40 @@
+[
+    {
+      "title": "Lounge Name",
+      "dataIndex": "loungeName",
+      "key": "loungeName",
+      "align": "",
+      "width":230
+    },
+    {
+      "title": "Lounge Owner",
+      "dataIndex": "loungeOwner",
+      "align": "",
+      "key": "loungeOwner"
+    },
+    {
+      "title": "Create Date",
+      "dataIndex": "createDate",
+      "align": "",
+      "key": "createDate"
+    },
+    {
+      "title": "Description",
+      "dataIndex": "description",
+      "align": "",
+      "key": "description"
+    },
+    {
+      "title": "Status",
+      "dataIndex": "status",
+      "align": "",
+      "key": "status"
+    },
+    {
+      "title": "Action",
+      "dataIndex": "action",
+      "align": "",
+      "key": "action"
+    }
+  ]
+  

@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Redirect Link",
+    "dataIndex": "redirectLink",
+    "key": "redirect",
+    "align": "",
+    "width": 220
+  },
+  {
+    "title": "Type",
+    "dataIndex": "type",
+    "align": "",
+    "key": "type"
+  },
+  {
+    "title": "Placement",
+    "dataIndex": "placement",
+    "align": "",
+    "key": "placement"
+  },
+  {
+    "title": "Status",
+    "dataIndex": "status",
+    "align": "",
+    "key": "status"
+  },
+
+  {
+    "title": "Time Period",
+    "dataIndex": "timePeriod",
+    "align": "",
+    "key": "timePeriod"
+  },
+
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

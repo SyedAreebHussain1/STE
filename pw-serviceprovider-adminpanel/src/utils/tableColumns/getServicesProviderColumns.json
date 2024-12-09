@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name",
+    "className": "text-column"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "key": "email",
+    "className": "text-column"
+  },
+  {
+    "title": "Phone",
+    "dataIndex": "phone",
+    "key": "phone",
+    "className": "text-column"
+  },
+  {
+    "title": "City",
+    "dataIndex": "city",
+    "key": "city",
+    "className": "text-column"
+  },
+  {
+    "title": "Country",
+    "dataIndex": "country",
+    "key": "country",
+    "className": "text-column"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "key": "date",
+    "className": "text-column"
+  },
+  {
+    "title": "Status",
+    "dataIndex": "status",
+    "key": "status",
+    "className": "text-column"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action",
+    "className": "text-column"
+  }
+]

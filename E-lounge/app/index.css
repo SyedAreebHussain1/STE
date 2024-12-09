@@ -1,0 +1,93 @@
+.swal-button {
+  background-color: #00adff !important;
+}
+
+.MuiTableCell-head {
+  min-width: 120px !important;
+}
+
+.lounge-cards {
+  /* width: 200px !important; */
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 2 !important;
+}
+.MuiTableRow-head .MuiTableCell-root {
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 1px solid #0000000f;
+  padding: 10px 16px 10px 16px;
+  margin: 10px;
+}
+.pac-container {
+  z-index: 9999 !important;
+}
+
+.recording {
+  font-family: verdana, sans-serif;
+  color: firebrick;
+  display: inline-block;
+  padding-left: 1.2em;
+  line-height: 1.5em;
+}
+.recording::before {
+  content: "🔴";
+  animation: recording 600ms alternate infinite;
+}
+.recording::after {
+  content: "...";
+  animation: recording 600ms alternate infinite;
+}
+@keyframes recording {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+.audio-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.buttonOfRecording {
+  background-color: rgb(221, 221, 221);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* padding: 5px 20px; */
+  padding: 0;
+  margin: 0 10px;
+  position: relative;
+}
+.buttonOfRecording:hover {
+  background-color: lightblue;
+}
+@keyframes spinner {
+  0% {
+    transform: translate3d(-50%, -50%, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) rotate(360deg);
+  }
+}
+.loader::before {
+  animation: 1.5s linear infinite spinner;
+  animation-play-state: inherit;
+  border: solid 5px #cfd0d1;
+  border-bottom-color: black;
+  border-radius: 50%;
+  content: "";
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+  will-change: transform;
+}
+/* pac-logo */

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Plan",
+    "dataIndex": "packageName",
+    "key": "packageName",
+    "align": ""
+  },
+  {
+    "title": "Charges",
+    "dataIndex": "charges",
+    "key": "charges",
+    "align": ""
+  },
+  {
+    "title": "User Limits",
+    "dataIndex": "userLimits",
+    "align": "",
+    "key": "userLimits"
+  },
+  {
+    "title": "No Of Listings",
+    "dataIndex": "noOfListings",
+    "align": "",
+    "key": "noOfListings"
+  },
+  {
+    "title": "Hot Listings",
+    "dataIndex": "hotListings",
+    "align": "",
+    "key": "hotListings"
+  },
+  {
+    "title": "Recurring Commission",
+    "dataIndex": "rentalCommission",
+    "align": "",
+    "key": "rentalCommission"
+  },
+  {
+    "title": "First month Commission",
+    "dataIndex": "regCommission",
+    "align": "",
+    "key": "regCommission"
+  },
+  {
+    "title": "No of months for RC",
+    "dataIndex": "noCommissionCount",
+    "align": "",
+    "key": "noCommissionCount"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

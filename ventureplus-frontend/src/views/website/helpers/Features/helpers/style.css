@@ -1,0 +1,127 @@
+.featureDiscoverTheFeature {
+  background-image: linear-gradient(
+    to right,
+    rgba(151, 71, 255, 0.1),
+    rgba(1, 106, 112, 0.1),
+    rgba(103, 166, 169, 0.1)
+  );
+}
+.FeatureSection {
+  height: calc(100vh - 20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: white;
+  top: 20px;
+  position: sticky;
+}
+.FeatureSectionImage {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.FeatureSectionDiv:hover .FeatureSectionImage {
+  width: 0;
+  height: 100%;
+}
+.FeatureSectionContent {
+  width: 60%;
+  transition: all 0.5s ease-in-out;
+}
+.FeatureSectionDiv:hover .FeatureSectionContent {
+  width: 100%;
+  height: 100%;
+}
+.FeatureSectionContentWithOutHover {
+  opacity: 1;
+  transition: all 0.5s ease-in, opacity 1s ease-in;
+}
+.FeatureSectionDiv:hover .FeatureSectionContentWithOutHover {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  transition: all 0s ease-in;
+  padding: 0;
+  margin: 0;
+}
+.FeatureSectionContentWithHover {
+  opacity: 0;
+  transition: all 0s ease-in;
+  margin: 20px;
+}
+.FeatureSectionDiv:hover .FeatureSectionContentWithHover {
+  margin: 0;
+  opacity: 1;
+  transition: all 1.2s ease-in;
+}
+.FeatureSectionContentWithHover ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.solution-card {
+  background-color: #e3e7ef;
+  border-radius: 10px;
+  position: absolute;
+  /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); */
+  opacity: 0;
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.8s ease;
+}
+
+#card1 {
+  z-index: 10;
+  /* if four image */
+  /* transform: translateY(200px) translateX(calc(200% - 25px)) rotate(10deg); */
+  /* if three image  */
+  transform: translateY(200px) translateX(calc(150% - 25px)) rotate(10deg);
+}
+
+#card2,
+#card3,
+#card4 {
+  z-index: 1;
+  /* if four image */
+  /* transform: translateY(200px) translateX(calc(200% - 25px)) rotate(10deg); */
+  /* if three image  */
+  transform: translateY(200px) translateX(calc(150% - 25px)) rotate(10deg);
+}
+.Solution-Card-contain {
+  @apply text-[black] px-[10px];
+}
+.Solution-Card-contain-h1 {
+  @apply text-[16px] font-medium leading-[40px];
+}
+.Solution-Card-contain-Ul {
+  @apply text-[#4A5366] text-[15px] font-medium  leading-[26px];
+}
+/* .Solution-Card-contain-Li {
+} */
+.Solution-Card-contain {
+  @apply overflow-hidden;
+}
+.Solution-Card-image {
+  transition: all 0.5s ease-in-out;
+}
+.solution-card:hover .Solution-Card-image {
+  height: 0;
+}
+.solution-card:hover {
+  transition: all 0.5s ease-in;
+  background-color: #34888d;
+}
+.solution-card:hover .Solution-Card-contain-h1,
+.solution-card:hover .Solution-Card-contain-Ul,
+.solution-card:hover .Solution-Card-contain-p {
+  transition: all 0.5s ease-in-out;
+  color: #f8fafc;
+}
+
+.solution-card:hover .Solution-Card-contain {
+  @apply overflow-y-scroll h-full;
+}
+.solution-card:hover .Solution-Card-contain-Ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}

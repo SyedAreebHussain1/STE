@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Merchandizer Name",
+    "dataIndex": "merchandizerName",
+    "align": "center",
+    "key": "merchandizerName"
+  },
+  {
+    "title": "Merchandizer No",
+    "dataIndex": "merchandizerNo",
+    "align": "center",
+    "key": "merchandizerNo"
+  },
+  {
+    "title": "Merchandizer Licence No",
+    "dataIndex": "merchandizerLicenceno",
+    "align": "center",
+    "key": "merchandizerLicenceno"
+  },
+  {
+    "title": "Voucher NO.",
+    "dataIndex": "voucherNo",
+    "align": "center",
+    "key": "voucherNo"
+  },
+  {
+    "title": "Phone No.",
+    "dataIndex": "phoneNo",
+    "align": "center",
+    "key": "phoneNo"
+  },
+  {
+    "title": "Amount",
+    "dataIndex": "amount",
+    "align": "center",
+    "key": "amount"
+  },
+  {
+    "title": "Location",
+    "dataIndex": "location",
+    "align": "center",
+    "key": "location"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "align": "center",
+    "key": "date"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "center",
+    "key": "action"
+  }
+]

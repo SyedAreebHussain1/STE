@@ -1,0 +1,365 @@
+.app-store-btn-main-container {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    position: absolute !important;
+    right: 120px !important;
+    bottom: 200px !important;
+}
+
+.block-flex {
+    display: flex;
+}
+
+.app-store-btn-main-container img {
+    width: 180px;
+    height: 65px;
+}
+
+/* .filter-opicity :hover {
+    opacity: 0.8;
+} */
+.container-left-video {
+    position: relative;
+}
+
+.left-video {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle-video {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.container-left-video:hover .left-video {
+    opacity: 0.1;
+}
+
+.container-left-video:hover .middle-video {
+    animation: mymove 1s;
+    animation-iteration-count: 1;
+    opacity: 1;
+    top: 50%;
+
+}
+
+.text-video {
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+@keyframes mymove {
+    from {
+        top: 100%;
+    }
+
+    to {
+        top: 50%;
+    }
+}
+
+.app-store-btn-main-mobile-container img {
+    width: 140px;
+    height: 50px;
+    /* top: 120%; */
+    /* border: 2px solid yellow; */
+    margin-top: -20% !important;
+    margin-bottom: 20%;
+
+    /* z-index: 9999 !important; */
+}
+
+.banner-mobile-show {
+    display: none;
+}
+
+.p-70 {
+    padding: 70px;
+}
+
+@media screen and (max-width:752px) and (min-width: 205px) {
+    .modile-size-hide {
+        display: none !important;
+    }
+
+    .banner-mobile-show {
+        display: block;
+    }
+
+    .block-flex {
+        display: block !important;
+    }
+
+    .mian-content {
+        text-align: center !important;
+        justify-content: center !important;
+    }
+
+    .fontSize-9 {
+        font-size: 1.5rem !important;
+    }
+
+    .p-70 {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:844px) and (min-width: 375px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 28px !important;
+        top: 230px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 50px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:844px) and (min-width: 414px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 32px !important;
+        top: 250px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 60px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:844px) and (min-width: 390px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 28px !important;
+        bottom: 700px !important;
+
+    }
+
+    .app-store-btn-main-container img {
+        width: 50px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:844px) and (min-width: 360px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 28px !important;
+        bottom: 490px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 50px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:844px) and (min-width: 412px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 28px !important;
+        top: 245px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 50px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:844px) and (min-width: 820px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 58px !important;
+        top: 395px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 110px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width:844px) and (min-width: 768px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 58px !important;
+        top: 395px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 110px;
+        height: 65px;
+    }
+}
+
+/* comment */
+
+@media screen and (max-width:1368px) and (min-width: 912px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 100px !important;
+        top: 450px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 150px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width:720px) and (min-width: 540px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 32px !important;
+        top: 290px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 80px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:653px) and (min-width: 280px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 19px !important;
+        bottom: 440px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 40px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:914px) and (min-width: 412px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 35px !important;
+        bottom: 440px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 50px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:1280px) and (min-width: 800px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 100px !important;
+        top: 460px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 150px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width: 600px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 70px !important;
+        top: 410px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 140px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width: 1024px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 50px !important;
+        top: 400px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 120px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:1364px) and (min-width: 1278px) {
+    .app-store-btn-main-container {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        position: absolute !important;
+        right: 100px !important;
+        top: 450px !important;
+    }
+
+    .app-store-btn-main-container img {
+        width: 120px;
+        height: 50px;
+    }
+}
+
+.btn-android {
+    -webkit-appearance: none;
+}

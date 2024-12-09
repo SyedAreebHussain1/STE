@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Created By",
+    "dataIndex": "createdByUser",
+    "key": "createdByUser"
+  },{
+      "title": "Plan Name",
+      "dataIndex": "name",
+      "key": "name"
+    },
+    {
+        "title": "Business Name",
+        "dataIndex": "businessName",
+        "key": "businessName"
+      },
+    {
+        "title": "Description",
+        "dataIndex": "description",
+        "key": "description"
+      },
+    {
+      "title": "Completed Chapters",
+      "dataIndex": "completedChapterCount",
+      "key": "completedChapterCount"
+    },
+    {
+      "title": "Completed Topics",
+      "dataIndex": "CompletedTopics",
+      "key": "CompletedTopics"
+    }
+  ]
+  

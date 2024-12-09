@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Name",
+      "dataIndex": "name",
+      "key": "name",
+      "align": ""
+    },
+    {
+      "title": "Mobile No",
+      "dataIndex": "mobileNo",
+      "align": "",
+      "key": "mobileNo"
+    },
+    {
+      "title": "Email",
+      "dataIndex": "email",
+      "align": "",
+      "key": "email"
+    }
+  ]
+  

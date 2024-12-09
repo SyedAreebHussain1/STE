@@ -1,0 +1,118 @@
+.imgeop {
+  filter: brightness(0.4);
+  max-width: "100%";
+  object-fit: contain;
+  height: auto;
+}
+
+.main-heading {
+  font-size: 60px;
+}
+.carousel-item-container {
+  position: relative;
+}
+.carousel-sub-item {
+  position: absolute;
+  top: 47%;
+  left: 26%;
+}
+.btn-main-box {
+  position: absolute;
+  top: 56%;
+  left: 43%;
+  /* margin-top: 20px; */
+}
+.default-btn {
+  border: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  color: #d69929;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 14px 30px;
+  border: 1px solid #d69929;
+  /* background-color: #8eb84c; */
+
+  background-image: url("../../components/images/marbel.jpg");
+}
+.default-btn:hover {
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.8;
+  border: 1px solid #fff;
+  /* background-color: rgba(142, 184, 76, 0.8); */
+}
+.slider {
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+/* Responsiveness media queries */
+
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+  .main-heading {
+    font-size: 40px !important;
+  }
+  .carousel-sub-item {
+    left: 34% !important;
+  }
+  .btn-main-box {
+    top: 54% !important;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  .main-heading {
+    font-size: 30px !important;
+  }
+  .carousel-sub-item {
+    left: 38% !important;
+    top: 48%;
+  }
+  .btn-main-box {
+    top: 54% !important;
+
+    left: 42% !important;
+  }
+}
+@media screen and (max-width: 599px) and (min-width: 400px) {
+  .main-heading {
+    font-size: 22px !important;
+  }
+  .carousel-sub-item {
+    left: 41.4% !important;
+    top: 48%;
+  }
+  .btn-main-box {
+    top: 54% !important;
+
+    left: 43% !important;
+  }
+  .default-btn {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 399px) and (min-width: 250px) {
+  .main-heading {
+    font-size: 18px !important;
+  }
+  .carousel-sub-item {
+    left: 43% !important;
+    top: 49%;
+  }
+  .btn-main-box {
+    top: 53% !important;
+
+    left: 44% !important;
+  }
+  .default-btn {
+    font-size: 12px !important;
+  }
+}

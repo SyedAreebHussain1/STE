@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name",
+    "className": "name"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "key": "email",
+    "className": "text-column"
+  },
+  {
+    "title": "Department",
+    "dataIndex": "department",
+    "key": "department",
+    "className": "text-column"
+  },
+  {
+    "title": "Designation",
+    "dataIndex": "designation",
+    "key": "designation",
+    "className": "text-column"
+  },
+  {
+    "title": "Working Hours",
+    "dataIndex": "workingHours",
+    "key": "workingHours",
+    "className": "text-column"
+  },
+  {
+    "title": "Month",
+    "dataIndex": "month",
+    "key": "month",
+    "className": "text-column"
+  },
+  {
+    "title": "Gross Salary",
+    "dataIndex": "grossSalary",
+    "key": "grossSalary",
+    "className": "text-column"
+  },
+  {
+    "title": "Arrears Amount",
+    "dataIndex": "arrearAmount",
+    "key": "arrearAmount",
+    "className": "text-column"
+  },
+  {
+    "title": "Arrears Month",
+    "dataIndex": "arrearMonth",
+    "key": "arrearMonth",
+    "className": "text-column"
+  },
+  {
+    "title": "Payable Amount",
+    "dataIndex": "payableAmount",
+    "key": "payableAmount",
+    "className": "text-column"
+  },
+  {
+    "title": "Status",
+    "dataIndex": "status",
+    "key": "status",
+    "className": "text-column"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action",
+    "className": "text-column"
+  }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Title",
+        "dataIndex": "title",
+        "key": "title"
+    },
+    {
+        "title": "Interval",
+        "dataIndex": "description",
+        "key": "description"
+    },
+    {
+        "title": "Businesses",
+        "dataIndex": "noOfBusinesses",
+        "key": "noOfBusinesses"
+    },
+    {
+        "title": "Business Plans",
+        "dataIndex": "noOfBusinessPlans",
+        "key": "noOfBusinesses"
+    },
+    {
+        "title": "No Of Chapters",
+        "dataIndex": "noOfchapters",
+        "key": "noOfchapters"
+    },
+    {
+        "title": "No Of Credits",
+        "dataIndex": "creditCounts",
+        "key": "creditCounts"
+    },
+    {
+        "title": "Created At",
+        "dataIndex": "createdAt",
+        "key": "createdAt"
+    },
+    {
+        "title": "Free",
+        "dataIndex": "isFree",
+        "key": "isFree"
+    },
+    {
+        "title": "Subscription Plan",
+        "dataIndex": "isSubscriptionPlan",
+        "key": "isSubscriptionPlan"
+    },
+    {
+        "title": "Price",
+        "dataIndex": "price",
+        "key": "price"
+    },
+    {
+        "title": "Action",
+        "dataIndex": "action",
+        "key": "action"
+    }
+]

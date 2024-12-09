@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Name",
+      "dataIndex": "name",
+      "key": "name"
+    },
+    {
+      "title": "Compensation",
+      "dataIndex": "compensation",
+      "key": "compensation"
+        },
+    {
+      "title": "Units",
+      "dataIndex": "units",
+      "key": "units"
+        },
+    {
+      "title": "Assignees",
+      "dataIndex": "assignees",
+      "key": "assignees"
+    },
+    {
+      "title": "",
+      "dataIndex": "action",
+      "key": "action"
+        }
+  ]

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Title",
+    "dataIndex": "title",
+    "key": "title"
+  },
+  {
+    "title": "Description",
+    "dataIndex": "description",
+    "key": "description"
+  },
+  {
+    "title": "Created At",
+    "dataIndex": "createdAt",
+    "key": "createdAt"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action"
+  }
+]

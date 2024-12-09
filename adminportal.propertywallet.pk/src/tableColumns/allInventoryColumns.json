@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Inventory Name",
+    "dataIndex": "inventoryName",
+    "key": "inventoryName"
+  },
+  {
+    "title": "Single/Project",
+    "dataIndex": "singleProject",
+    "key": "singleProject"
+  },
+  {
+    "title": "Agency Name",
+    "dataIndex": "agencyName",
+    "key": "agencyName"
+  },
+  {
+    "title": "Inventory Type",
+    "dataIndex": "inventoryType",
+    "key": "inventoryType"
+  },
+
+  {
+    "title": "Inventory Sub-Type",
+    "dataIndex": "inventorySubType",
+    "key": "inventorySubType"
+  },
+  {
+    "title": "Grade",
+    "dataIndex": "grade",
+    "key": "grade"
+  },
+  {
+    "title": "Price",
+    "dataIndex": "price",
+    "key": "price"
+  },
+  {
+    "title": "Area Size",
+    "dataIndex": "areaSize",
+    "align": "",
+    "key": "areaSize"
+  },
+  {
+    "title": "Sell/Rent",
+    "dataIndex": "sellRent",
+    "align": "",
+    "key": "sellRent"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

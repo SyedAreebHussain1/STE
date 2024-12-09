@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Selling Point Name",
+    "dataIndex": "sellingPointName",
+    "key": "sellingPointName",
+    "align": "center"
+  },
+  {
+    "title": "Selling Point Location",
+    "dataIndex": "sellingPointLocation",
+    "align": "center",
+    "key": "sellingPointLocation"
+  },
+  {
+    "title": "Client Name",
+    "dataIndex": "clientName",
+    "align": "center",
+    "key": "clientName"
+  },
+  {
+    "title": "Size",
+    "dataIndex": "size",
+    "align": "center",
+    "key": "size"
+  },
+  {
+    "title": "Agent Name",
+    "dataIndex": "agentName",
+    "align": "center",
+    "key": "agentName"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "align": "center",
+    "key": "date"
+  },
+  {
+    "title": "Selling Price",
+    "dataIndex": "sellingPrice",
+    "align": "center",
+    "key": "sellingPrice"
+  }
+]

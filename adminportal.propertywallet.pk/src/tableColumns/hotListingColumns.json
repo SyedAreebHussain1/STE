@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Listing Names",
+    "dataIndex": "listingNames",
+    "key": "listingNames"
+  },
+  {
+    "title": "Status",
+    "dataIndex": "status",
+    "key": "status"
+  },
+  {
+    "title": "Date Created",
+    "dataIndex": "dateCreated",
+    "key": "dateCreated"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action"
+  }
+]

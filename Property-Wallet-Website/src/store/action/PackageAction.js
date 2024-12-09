@@ -1,0 +1,123 @@
+import {
+  ADD_CHECKOUT,
+  ADD_CHECKOUT_FAILURE,
+  ADD_CHECKOUT_SUCCESS,
+  ADD_DISCOUNT_AMOUNT,
+  ADD_DISCOUNT_AMOUNT_FAILURE,
+  ADD_DISCOUNT_AMOUNT_SUCCESS,
+  CREATE_PACKAGE,
+  CREATE_PACKAGE_FAILURE,
+  CREATE_PACKAGE_SUCCESS,
+  GET_PACKAGES,
+  GET_PACKAGES_FAILURE,
+  GET_PACKAGES_SUCCESS,
+  GET_ALL_CUSTOM_PACKAGES,
+  GET_ALL_CUSTOM_PACKAGES_SUCCESS,
+  GET_ALL_CUSTOM_PACKAGES_FAILURE,
+} from "../../constant/packageConstant";
+import {
+  getError,
+  getRequest,
+  postRequest,
+} from "../../components/AgencyCatalogue/utils/baseApi";
+import { API } from "../../components/AgencyCatalogue/config/apiEndPoints";
+
+export const getAllPackages = async (dispatch, pageLimit) => {
+  dispatch({ type: GET_PACKAGES });
+  await getRequest(`${API.packages.packagesList}`)
+    .then((response) => {
+      if (response.data) {
+        const goldPackageIndex = response.data.data.findIndex((pckg) =>
+          pckg.title.toLowerCase().includes("gold")
+        );
+        if (goldPackageIndex !== -1) {
+          // Create a copy of the original data array
+          const modifiedPackages = [...response.data.data];
+
+          // Remove the "Gold" package from its original position
+          const [goldPackage] = modifiedPackages.splice(goldPackageIndex, 1);
+
+          // Calculate the middle index
+          const middleIndex = Math.floor(modifiedPackages.length / 2);
+
+          // Insert the "Gold" package at the middle index
+          modifiedPackages.splice(middleIndex, 0, goldPackage);
+
+          // Update the state with the modified array
+          // setData(modifiedPackages);
+          dispatch({ type: GET_PACKAGES_SUCCESS, payload: modifiedPackages });
+        } else {
+          dispatch({ type: GET_PACKAGES_SUCCESS, payload: response.data });
+        }
+      }
+    })
+    .catch((err) => {
+      getError(err);
+      dispatch({ type: GET_PACKAGES_FAILURE, error: err.response.data });
+    });
+};
+export const DiscountAmountApi = async (body, dispatch) => {
+  dispatch({ type: ADD_DISCOUNT_AMOUNT });
+  await postRequest(API.packages.discount, body)
+    .then((response) => {
+      if (response.data) {
+        dispatch({ type: ADD_DISCOUNT_AMOUNT_SUCCESS, payload: response.data });
+      }
+    })
+    .catch((err) => {
+      getError(err);
+      dispatch({ type: ADD_DISCOUNT_AMOUNT_FAILURE, error: err.response.data });
+    });
+};
+export const CheckoutApi = async (dispatch, body, paymentMethod) => {
+  dispatch({ type: ADD_CHECKOUT });
+  await postRequest(
+    paymentMethod === "PayMob"
+      ? API.packages.checkoutwithpaymob
+      : API.packages.checkout,
+    body
+  )
+    .then((response) => {
+      if (response.data) {
+        dispatch({ type: ADD_CHECKOUT_SUCCESS, payload: response.data });
+      }
+    })
+    .catch((err) => {
+      getError(err);
+      dispatch({ type: ADD_CHECKOUT_FAILURE, error: err.response.data });
+    });
+};
+
+export const createPackageApi = async (dispatch, body, onSuccess) => {
+  dispatch({ type: CREATE_PACKAGE });
+  await postRequest(API.packages.createPackage, body)
+    .then((response) => {
+      if (response.data) {
+        dispatch({ type: CREATE_PACKAGE_SUCCESS, payload: response.data });
+        onSuccess(response.data);
+      }
+    })
+    .catch((err) => {
+      getError(err);
+      dispatch({ type: CREATE_PACKAGE_FAILURE, error: err.response.data });
+    });
+};
+export const getAllCustomPackagesApi = async (dispatch) => {
+  dispatch({ type: GET_ALL_CUSTOM_PACKAGES });
+  await getRequest(API.packages.getAllCustomPackages)
+    .then((response) => {
+      if (response.data) {
+        dispatch({
+          type: GET_ALL_CUSTOM_PACKAGES_SUCCESS,
+          payload: response.data,
+        });
+      }
+    })
+    .catch((err) => {
+      getError(err);
+      dispatch({
+        type: GET_ALL_CUSTOM_PACKAGES_FAILURE,
+        error: err.response.data,
+      });
+    });
+};

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("react-phone-number-input/style.css");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  @apply !h-[6px] !p-[2px] !w-[6px] !bg-transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply dark:!bg-primary !rounded-lg !bg-green-200;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply !bg-transparent;
+}
+
+.ant-menu-light {
+  @apply !bg-transparent !text-secondaryActive;
+}
+
+.ant-menu-light.ant-menu-inline .ant-menu-item {
+  @apply !text-secondaryActive !mb-2 hover:!bg-secondaryActive hover:!bg-opacity-20 hover:!text-secondaryActive;
+}
+.ant-menu-item-selected {
+  @apply !bg-secondaryActive;
+}
+
+.ant-menu-item-selected > .ant-menu-title-content {
+  @apply !text-primary !font-bold hover:!text-secondaryActive;
+}
+
+.ant-table-wrapper .ant-table {
+  @apply !bg-transparent;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th {
+  @apply !bg-transparent;
+}
+
+.input-styles {
+  @apply border !border-strokes h-[40px] px-4 rounded-lg outline-none focus:outline-none;
+}
+
+.p-btn {
+  @apply !bg-primary !text-[#fff]  hover:!text-[#fff]   !border-primary  hover:!border-primary  hover:!bg-primaryHover disabled:!bg-gray-200 disabled:!text-gray-500 disabled:!border-gray-500 disabled:hover:!bg-gray-100;
+}
+.s-btn {
+  @apply !bg-secondary !text-title  hover:!text-title  !border-white-600  hover:!border-white-600 hover:!bg-secondaryHover  disabled:!bg-gray-200 disabled:!text-gray-500 disabled:!border-gray-500;
+}
+.d-btn {
+  @apply !bg-white-100 !text-primary hover:!text-primary  !border-primary  hover:!border-primary hover:!bg-green-100;
+}
+
+.dark-btn {
+  @apply !bg-[#002A2D] !text-[#fff]  !border-[#002A2D] !border-[2px]  hover:!border-[#002A2D] hover:!bg-[#002A2D];
+}
+
+.trans-btn {
+  @apply !bg-transparent hover:!bg-transparent;
+}
+
+.trans-black-btn {
+  @apply !bg-transparent hover:!bg-transparent !text-body hover:!text-body !border-[#002A2D] !border-[2px]  hover:!border-[#002A2D];
+}
+
+.purple-btn {
+  @apply !bg-[#7A5AF8]  hover:!text-white-100 !border-[#7A5AF8] hover:!border-[#7A5AF8] hover:!bg-[#7A5AF8];
+}
+
+.grey-btn {
+  @apply !text-white-100 !bg-[#CDD4DF]  hover:!text-white-100 !border-[#CDD4DF] hover:!border-[#CDD4DF] hover:!bg-[#CDD4DF] hover:!bg-opacity-[0.8];
+}
+
+.white-btn {
+  @apply !bg-[#fff] !text-black hover:!text-black !border-black hover:!border-[#fff] hover:!bg-[#fff] disabled:!bg-gray-200 disabled:!text-gray-500 disabled:!border-gray-500;
+}
+
+.white-btn-border-light {
+  @apply !bg-[#fff] !text-black hover:!text-black !border-strokes hover:!border-[#fff] hover:!bg-[#fff] disabled:!bg-gray-200 disabled:!text-gray-500 disabled:!border-gray-500;
+}
+
+.danger-btn {
+  @apply !bg-danger !bg-opacity-50 !text-[#fff] hover:!text-[#fff] !border-danger hover:!border-danger hover:!bg-danger disabled:!bg-gray-200 disabled:!text-gray-500 disabled:!border-gray-500;
+}
+
+.circle-icon {
+  @apply rounded-full w-[24px] h-[24px] border p-1 cursor-pointer;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  @apply !h-[6px] !p-[2px] !w-[6px] !bg-transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply dark:!bg-green-600 !rounded-lg !bg-green-200;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply !bg-transparent;
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Project Name",
+    "dataIndex": "projectName",
+    "align": "",
+    "key": "projectName"
+  },
+  {
+    "title": "Status",
+    "dataIndex": "status",
+    "align": "",
+    "key": "status"
+  },
+  {
+    "title": "Location",
+    "dataIndex": "location",
+    "align": "",
+    "key": "location"
+  },
+  {
+    "title": "City",
+    "dataIndex": "city",
+    "align": "",
+    "key": "city"
+  },
+
+  {
+    "title": "Total Area Size",
+    "dataIndex": "totalAreaSize",
+    "align": "",
+    "key": "totalAreaSize"
+  },
+
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

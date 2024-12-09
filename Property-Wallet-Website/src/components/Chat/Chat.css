@@ -1,0 +1,58 @@
+/* Launcher start */
+.sc-launcher {
+  background-color: #14828c;
+  cursor: pointer;
+  right: 38px;
+  bottom: 30px;
+}
+.sc-launcher .sc-open-icon,
+.sc-launcher .sc-closed-icon {
+  right: 38px;
+  bottom: 30px;
+}
+.sc-message--avatar {
+  background-image: url("./bot.png") !important;
+}
+.sc-user-input--emoji-icon-wrapper {
+  display: none !important;
+}
+.sc-header {
+  background: #14828c;
+  height: 50px !important;
+
+  /* min-height: 55px !important; */
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  color: white;
+  /* padding: 20px; */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+}
+.sc-message--content.sent .sc-message--text {
+  background-color: white !important;
+  color: #14828c !important;
+  border-radius: 40px !important;
+  border: solid !important;
+  border-color: #14828c !important;
+  border-width: 0.5px !important;
+  max-width: calc(100% - 120px);
+  word-wrap: break-word;
+  padding: 10px !important;
+  text-align: center !important;
+}
+.sc-header--close-button {
+  background-color: #14828c !important;
+}
+.sc-user-input--text {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#scrollUp {
+  bottom: 130px !important;
+}
+/* Launcher end */
+.sc-chat-window {
+  z-index: 999999;
+}

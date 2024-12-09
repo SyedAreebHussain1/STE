@@ -1,0 +1,102 @@
+/* TestimonialServicePage */
+
+
+.text-align-center {
+    text-align: center;
+  }
+
+.testImonialsHeading {
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
+
+.testImonialsText {
+    width: 60%;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+    color: black;
+}
+
+.testimonialsServiceCartHeading {
+    /* margin-left: 12px; */
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.testimonialsServiceHeadingAndwork{
+    margin-left: 12px;
+
+    margin-top: -6px;
+}
+.testimonialsServiceCartIcon {
+    height: 2.3rem
+}
+.testimonialsServiceCartWorkText{
+    margin-top: -10px;
+}
+
+/* TestimonialServicePage */
+
+
+.text-align-center {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.text-gray {
+    color: grey;
+  }
+  
+  .text-skyblue {
+    color: #27a3a3;
+  }
+
+.bold {
+    font-weight: bold;
+}
+
+.font-size-L {
+    font-size: large;
+  }
+
+.font-size-s {
+    font-size: small;
+}
+.text-orange{
+    color: orange;
+}
+.font-16px {
+    font-size: 1rem;
+}
+.font-size_1_7rem{
+    font-size: 1.7rem;
+}
+
+.height-2_3rem {
+    height: 2.3rem
+}
+.height-100px{
+    height: 100px;
+}
+
+.marginTop-7 {
+    margin-top: 7%;
+}
+
+.marginTop-12 {
+    margin-top: 12%;
+}
+
+.marginLeft-12px {
+    margin-left: 12px;
+}
+
+.marginTop--10px {
+    margin-top: -10px;
+}
+.marginTop12rem {
+    margin-top: 12rem;
+  }
+.marginTop--6px {
+    margin-top: -6px;
+}

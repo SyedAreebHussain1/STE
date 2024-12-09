@@ -1,0 +1,18 @@
+.reviewAnimation {
+  display: flex;
+  width: min-content;
+  gap: 100px;
+  animation: scrollAnimation 10s ease-in-out infinite;
+}
+.reviewAnimation:hover {
+  animation-play-state: paused;
+}
+@keyframes scrollAnimation {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(calc(-100% + var(--container-width)));
+  }
+}

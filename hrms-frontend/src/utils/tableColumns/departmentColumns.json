@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Sno",
+    "dataIndex": "sno",
+    "key": "sno",
+    "className": "text-column"
+  },
+  {
+    "title": "Title",
+    "dataIndex": "title",
+    "key": "title",
+    "className": "text-column"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "key": "date",
+    "className": "text-column"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action",
+    "className": "text-column"
+  }
+]

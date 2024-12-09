@@ -1,0 +1,50 @@
+[
+  {
+    "title": "S.No",
+    "dataIndex": "sno",
+    "key": "sno",
+    "align": "center"
+  },
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name",
+    "align": ""
+  },
+  {
+    "title": "Phone",
+    "dataIndex": "phone",
+    "align": "",
+    "key": "phone"
+  },
+  {
+    "title": "Role",
+    "dataIndex": "role",
+    "align": "",
+    "key": "role"
+  },
+  {
+    "title": "Role Type",
+    "dataIndex": "roleType",
+    "align": "",
+    "key": "roleType"
+  },
+  {
+    "title": "Sub Role Type",
+    "dataIndex": "subroleType",
+    "align": "",
+    "key": "subroleType"
+  },
+  {
+    "title": "Create Date",
+    "dataIndex": "createDate",
+    "align": "",
+    "key": "createDate"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

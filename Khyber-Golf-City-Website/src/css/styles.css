@@ -1,0 +1,822 @@
+/* .zaman {
+  background-color: green;
+} */
+/*Media Query*/
+.imgreponsive {
+  /* object-fit: fill; */
+}
+
+.main-video {
+  width: 100%;
+  height: 100vh;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.overlay-video {
+  filter: brightness(0.6);
+
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.containeryoutube {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* align-self: center;
+  justify-content: center; */
+
+  margin-left: 20%;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  height: 60%;
+  border: none;
+}
+.ppp:hover {
+  color: #d69929;
+}
+.say {
+  /* position: fixed; */
+  background-image: url("../components/images/contactbg.png");
+  /* background-color: red; */
+}
+.e-card-image {
+  /* background: url("../components/images/marbel.jpg"); */
+  height: auto;
+}
+/*areeb */
+
+.e-card-heightFix{
+  height: 130px;
+}
+.e-card-icon{
+  text-align: center;
+  
+}
+.e-card-head{
+  font-weight: bold;
+}
+
+.luxurycolumn1 {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+}
+
+
+.ah{
+  color: black;
+}
+.ah:hover{
+  color: #d69929 !important
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .luxurycolumn1 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .luxurycolumn1 {
+    width: 100%;
+  }
+}
+/* .aboutacolumn {
+  float: left;
+  width: 50%;
+ 
+  padding: 5px;
+} */
+
+/* Clearfix (clear floats) */
+.pesharwarow1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/* areeb end */
+.e-card {
+  /* width: 200px; */
+  margin: auto;
+}
+.hr-theme-slash-2 {
+  display: flex;
+}
+.faqbot {
+  border-bottom: 4px solid #d69929;
+}
+.footuper {
+  color: white;
+  font-size: 16px;
+  /* cursor: pointer; */
+}
+.footuper a {
+  cursor: pointer;
+}
+
+.hovpf {
+  transition: 0.4s ease;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted green; */
+}
+
+.containersidebyside {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.containersidebyside img,
+.containersidebyside p {
+  flex-grow: 0;
+}
+
+.containersidebyside img {
+  width: "20%";
+  height: 350px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.containersidebyside p {
+  margin-left: 40%;
+  margin-top: -50%;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  line-height: 1.5;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #d69929;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  top: 7%;
+  left: 27%;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip2 .tooltiptext1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #d69929;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  top: 3%;
+  left: 27%;
+  z-index: 1;
+}
+
+.tooltip2:hover .tooltiptext1 {
+  visibility: visible;
+}
+.hovpf:hover {
+  cursor: pointer;
+  transform: translateY(5px);
+  /* border-top: 3px solid #d69929; */
+}
+.projfacbtnunclicked {
+  border-radius: 5px;
+  padding: 5px 8px;
+  /* font-weight: 500; */
+  cursor: pointer;
+  background: #d69929;
+  font-size: 14px;
+  border: 2px solid transparent;
+  color: #fff;
+}
+.projfacbtnclicked {
+  border-radius: 5px;
+  padding: 5px 8px;
+  /* font-weight: 500; */
+  /* cursor: pointer; */
+  font-size: 14px;
+  background: transparent;
+  border: 2px solid #d69929;
+  color: #d69929;
+}
+.projfacbtnunclicked:hover {
+  background: transparent;
+  border: 2px solid #d69929;
+  color: #d69929;
+}
+.projfacbrntext {
+}
+.carous {
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+/* peshawar */
+* {
+  box-sizing: border-box;
+}
+
+.pesharwarcolumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.pesharwarcolumnss {
+  float: left;
+  /* align-items: center; */
+  width: 43.33%;
+  padding: 5px;
+}
+.pfcols {
+  float: left;
+  /* align-items: center; */
+  width: 33.33%;
+  padding: 5px;
+}
+.commercialcentercolumn {
+  float: left;
+  width: 24.33%;
+
+  padding: 5px;
+}
+.ameinitesfiveclomn {
+  float: left;
+  width: 20%;
+
+  padding: 5px;
+}
+.moderninfracolumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.luxurycolumn {
+  float: left;
+  width: 24.9%;
+  padding: 5px;
+}
+.aboutacolumn {
+  float: left;
+  width: 50%;
+  /* height: 100%; */
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.pesharwarow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .pesharwarcolumn {
+    width: 100%;
+  }
+  .pfcols {
+    width: 100%;
+  }
+  .commercialcentercolumn {
+    width: 100%;
+  }
+  .ameinitesfiveclomn {
+    width: 100%;
+  }
+  .moderninfracolumn {
+    width: 100%;
+  }
+  .luxurycolumn {
+    width: 100%;
+  }
+  .aboutacolumn {
+    width: 100%;
+  }
+}
+/* peshawar end */
+.hr-line {
+  width: 100%;
+  /* margin-top: -0.5%; */
+  position: relative;
+  margin: 12px;
+  border-radius: 10px;
+  border-bottom: 2px solid #2d3748;
+}
+.hr-icon {
+  position: relative;
+  top: 3px;
+  color: #ff0000;
+}
+
+/* @media screen and (max-width: 1024px) and (min-width:1280px) {
+  .header-other-bg{
+
+    min-height: 22vh ;
+  }
+} */
+/* @media screen and (max-width: 800px) {
+  
+} */
+@media screen and (max-width: 580px) and (min-width: 280px) {
+  .flexbuttons {
+    flex-direction: column !important;
+    justify-content: center !important;
+    text-align: center !important;
+    flex-wrap: nowrap !important;
+  }
+}
+@media screen and (max-width: 1332px) and (min-width: 900px) {
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .availform {
+    margin-right: 0% !important;
+    margin-left: 12% !important;
+  }
+}
+@media screen and (max-width: 899px) and (min-width: 600px) {
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .availform {
+    margin-right: 0% !important;
+    margin-left: 11% !important;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 300px) {
+  .extradiv {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 599px) and (min-width: 475px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .availform {
+    margin-right: 0% !important;
+    margin-left: 11% !important;
+  }
+  /* .pesharwarcolumnss{
+  width: 100%;
+} */
+}
+@media screen and (max-width: 474px) and (min-width: 300px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .availform {
+    margin-right: 11% !important;
+    margin-left: 10% !important;
+  }
+  .pesharwarcolumnss {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 299px) and (min-width: 200px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .availform {
+    margin-right: 11% !important;
+    margin-left: 10% !important;
+  }
+  .pesharwarcolumnss {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .header-bg {
+    min-height: 100vh;
+  }
+  .header-other-bg {
+    min-height: 30vh;
+  }
+  /* .otherheadtext{
+    margin-top: 7%;
+  } */
+  .floating-icon {
+    bottom: 0%;
+  }
+  .img-button-main-continer .btnn {
+    font-size: 20px !important;
+
+    bottom: 10% !important;
+    left: 34.5% !important;
+  }
+  .mobileview {
+    display: block !important;
+  }
+  .desktopview {
+    display: none !important;
+  }
+  .zaman {
+    background-color: brown !important;
+  }
+  .amenimg {
+    /* background-color: blue !important; */
+    padding: 15px !important;
+  }
+  .online-portal {
+    flex-direction: column !important;
+    flex-wrap: wrap;
+    /* background-color: brown !important; */
+  }
+  .ques {
+    margin-left: 5%;
+  }
+  .imgreponsive {
+    width: 100% !important;
+  }
+  .service__box {
+    padding: 5px !important;
+  }
+  .service__boxf {
+    padding: 5px !important;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 700px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .header-bg {
+    min-height: 100vh;
+  }
+  .footuper {
+    font-size: 15px !important;
+  }
+  .img-button-main-continer .btnn {
+    font-size: 19px !important;
+    /* background-color: red !important  ; */
+    bottom: 10% !important;
+    left: 34.5% !important;
+  }
+  .mobileview {
+    display: block !important;
+  }
+  .desktopview {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 699px) and (min-width: 640px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .header-bg {
+    min-height: 100vh;
+  }
+  .img-button-main-continer .btnn {
+    font-size: 19px !important;
+    /* background-color: red !important  ; */
+    bottom: 10% !important;
+    left: 30.5% !important;
+  }
+  .mobileview {
+    display: block !important;
+  }
+  .desktopview {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 639px) and (min-width: 600px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .header-bg {
+    min-height: 100vh;
+  }
+  .footuper {
+    font-size: 15px !important;
+  }
+  .img-button-main-continer .btnn {
+    font-size: 19px !important;
+    /* background-color: red !important  ; */
+    bottom: 10% !important;
+    left: 30.5% !important;
+  }
+  .mobileview {
+    display: block !important;
+  }
+  .desktopview {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 599px) and (min-width: 540px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .header-bg {
+    min-height: 100vh;
+  }
+  .footuper {
+    font-size: 15px !important;
+  }
+  .img-button-main-continer .btnn {
+    font-size: 19px !important;
+    /* background-color: red !important  ; */
+    bottom: 10% !important;
+    left: 30% !important;
+  }
+  .mobileview {
+    display: block !important;
+  }
+  .desktopview {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 539px) and (min-width: 480px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .header-bg {
+    min-height: 100vh;
+  }
+  .footuper {
+    font-size: 14px !important;
+  }
+  .img-button-main-continer .btnn {
+    font-size: 19px !important;
+    /* background-color: red !important  ; */
+    bottom: 10% !important;
+    left: 27% !important;
+  }
+  .mobileview {
+    display: block !important;
+  }
+  .desktopview {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 479px) and (min-width: 440px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .header-bg {
+    min-height: 100vh;
+  }
+  .footuper {
+    font-size: 14px !important;
+  }
+  .img-button-main-continer .btnn {
+    font-size: 17px !important;
+    /* background-color: red !important  ; */
+    bottom: 10% !important;
+    left: 26% !important;
+  }
+  .mobileview {
+    display: block !important;
+  }
+  .desktopview {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 439px) and (min-width: 400px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .header-bg {
+    min-height: 100vh;
+  }
+  .header-other-bg {
+    min-height: 27vh;
+  }
+  .img-button-main-continer .btnn {
+    font-size: 16px !important;
+    /* background-color: red !important  ; */
+    bottom: 10% !important;
+    left: 25% !important;
+  }
+  .footuper {
+    font-size: 14px !important;
+  }
+  .mobileview {
+    display: block !important;
+  }
+  .desktopview {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 399px) and (min-width: 360px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .header-bg {
+    min-height: 100vh;
+  }
+  .header-other-bg {
+    min-height: 25vh;
+  }
+  .footuper {
+    font-size: 14px !important;
+  }
+  .img-button-main-continer .btnn {
+    font-size: 15px !important;
+    /* background-color: red !important  ; */
+    bottom: 10% !important;
+    left: 24% !important;
+  }
+  .mobileview {
+    display: block !important;
+  }
+  .desktopview {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 359px) and (min-width: 300px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .header-bg {
+    min-height: 100vh;
+  }
+  .header-other-bg {
+    min-height: 25vh;
+  }
+
+  .footuper {
+    font-size: 14px !important;
+  }
+  .img-button-main-continer .btnn {
+    font-size: 13px !important;
+    /* background-color: red !important  ; */
+    bottom: 10% !important;
+    left: 24% !important;
+  }
+  .mobileview {
+    display: block !important;
+  }
+  .desktopview {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 299px) and (min-width: 290px) {
+  .feedbackform {
+    flex-direction: column !important;
+  }
+  .androidmobile {
+    display: block !important;
+  }
+  .androidmobile1 {
+    display: none !important;
+  }
+  .header-bg {
+    min-height: 100vh;
+  }
+  .footuper {
+    font-size: 12px !important;
+  }
+  .img-button-main-continer .btnn {
+    font-size: 11px !important;
+    /* background-color: red !important  ; */
+    bottom: 10% !important;
+    left: 24% !important;
+  }
+  .mobileview {
+    display: block !important;
+  }
+  .desktopview {
+    display: none !important;
+  }
+}

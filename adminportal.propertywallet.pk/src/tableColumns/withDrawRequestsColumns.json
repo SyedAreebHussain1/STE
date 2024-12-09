@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Investor Name",
+    "dataIndex": "investorName",
+    "align": "center",
+    "key": "investorName"
+  },
+  {
+    "title": "Phone No.",
+    "dataIndex": "phoneNo",
+    "align": "center",
+    "key": "phoneNo"
+  },
+  {
+    "title": "Amount",
+    "dataIndex": "amount",
+    "align": "center",
+    "key": "amount"
+  },
+  {
+    "title": "Location",
+    "dataIndex": "location",
+    "align": "center",
+    "key": "location"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "align": "center",
+    "key": "date"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "center",
+    "key": "action"
+  }
+]

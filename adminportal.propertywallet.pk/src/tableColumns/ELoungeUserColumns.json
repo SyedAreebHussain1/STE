@@ -1,0 +1,73 @@
+[
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name",
+    "align": "",
+    "width": 230
+  },
+  {
+    "title": "Phone",
+    "dataIndex": "phone",
+    "align": "",
+    "key": "phone",
+    "ellipsis": true
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "align": "",
+    "key": "email",
+    "ellipsis": true
+  },
+
+  {
+    "title": "Role",
+    "dataIndex": "role",
+    "align": "",
+    "key": "role",
+    "ellipsis": true
+  },
+  {
+    "title": "Role Type",
+    "dataIndex": "roleType",
+    "align": "",
+    "key": "roleType",
+    "ellipsis": true
+  },
+  {
+    "title": "Sub Role Type",
+    "dataIndex": "subroleType",
+    "align": "",
+    "key": "subroleType",
+    "ellipsis": true
+  },
+  {
+    "title": "ELounge",
+    "dataIndex": "eLounge",
+    "align": "",
+    "key": "eLounge"
+  },
+  {
+    "title": "Create Date",
+    "dataIndex": "createDate",
+    "align": "",
+    "key": "createDate",
+    "ellipsis": true
+  },
+
+  {
+    "title": "isActive",
+    "dataIndex": "isactive",
+    "align": "",
+    "key": "isactive",
+    "ellipsis": true
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action",
+    "ellipsis": true
+  }
+]

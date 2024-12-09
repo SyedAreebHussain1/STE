@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name",
+    "align": "",
+    "width": 180
+  },
+  {
+    "title": "Phone No",
+    "dataIndex": "phoneNo",
+    "align": "",
+    "key": "phoneNo"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "align": "",
+    "key": "email"
+  },
+  {
+    "title": "Subject",
+    "dataIndex": "subject",
+    "align": "",
+    "key": "subject"
+  },
+  {
+    "title": "Message",
+    "dataIndex": "message",
+    "align": "",
+    "key": "message"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "align": "",
+    "key": "date",
+    "width": 180
+  },
+  {
+    "title": "Time",
+    "dataIndex": "time",
+    "align": "",
+    "key": "time",
+    "width": 180
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

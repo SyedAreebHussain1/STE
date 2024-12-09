@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Manager Names",
+    "dataIndex": "managerName",
+    "key": "managerName"
+  },
+  {
+    "title": "Referral Code",
+    "dataIndex": "referralCode",
+    "key": "referralCode"
+  },
+  {
+    "title": "Total Subscription",
+    "dataIndex": "totalSubscription",
+    "key": "totalSubscription"
+  },  
+  {
+    "title": "Salary",
+    "dataIndex": "salary",
+    "key": "salary"
+  },
+  {
+    "title": "Phone No",
+    "dataIndex": "phoneNo",
+    "key": "phoneNo"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "key": "email"
+  },
+  {
+    "title": "isActive",
+    "dataIndex": "isactive",
+    "key": "isactive"
+  },
+
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Customer Name",
+    "dataIndex": "customerName",
+    "key": "customerName"
+  },
+  {
+    "title": "Service Provider Name",
+    "dataIndex": "serviceProviderName",
+    "key": "serviceProviderName"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "craetedAt",
+    "key": "craetedAt"
+  },
+  {
+    "title": "Order Status",
+    "dataIndex": "orderStatus",
+    "key": "orderStatus"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action"
+  }
+]

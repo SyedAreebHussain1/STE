@@ -1,0 +1,132 @@
+.containerques {
+  /* background-color: #333; */
+  /* padding: 10px; */
+  width: 100%;
+}
+
+.question {
+  border: 1px solid #0a1930;
+  /* background-color: yellow; */
+  border-radius: 3px;
+  width: 100%;
+  max-width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 0.5rem;
+  margin-bottom: 2rem;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.question-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* padding-bottom: 1rem; */
+}
+.question-title-ur {
+  display: flex;
+  justify-content: flex-end;
+
+  /* padding-bottom: 1rem; */
+}
+
+.question-title h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+button.question-icons {
+  border: 1px solid #d5d5d5;
+  background-color: #d5d5d5;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+
+:root {
+  /* --font-family: "Poppins", sans-serif; */
+  --dark-blue: #0a1930;
+  --light-blue: #1f93ff;
+
+  --color-white: #fff;
+  --dark-text: #333;
+  --form-button: #2da5ff;
+  --color-grey: #eae6eb;
+  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  /* font-family: "Poppins", sans-serif; */
+}
+
+section {
+  width: 100%;
+  padding: 8rem 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Text styles */
+.u-text-small {
+  font-size: 1.7rem;
+  line-height: 1.4;
+  font-weight: 200;
+}
+
+.u-text-dark {
+  color: var(--dark-text);
+}
+.u-text-light {
+  color: var(--dark-text);
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+/* Title */
+.u-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.u-title h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--dark-text);
+  margin: 1.5rem 0;
+}
+
+.u-title p {
+  width: 50%;
+  min-width: 40rem;
+  margin: 0 auto;
+  color: var(--dark-text);
+}

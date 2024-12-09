@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Affiliate Names",
+    "dataIndex": "affiliateName",
+    "key": "affiliateName"
+  },
+  {
+    "title": "Referral Code",
+    "dataIndex": "referralCode",
+    "key": "referralCode"
+  },
+  {
+    "title": "Total Subscription",
+    "dataIndex": "totalSubscription",
+    "key": "totalSubscription"
+  },
+  {
+    "title": "Signup Target",
+    "dataIndex": "signupTarget",
+    "key": "signupTarget"
+  },
+  {
+    "title": "Salary",
+    "dataIndex": "salary",
+    "key": "salary"
+  },
+  {
+    "title": "Signup Count",
+    "dataIndex": "signupcount",
+    "key": "signupcount"
+  },
+  {
+    "title": "Phone No",
+    "dataIndex": "phoneNo",
+    "key": "phoneNo"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "key": "email"
+  },
+  {
+    "title": "isActive",
+    "dataIndex": "isactive",
+    "key": "isactive"
+  },
+
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action"
+  }
+]

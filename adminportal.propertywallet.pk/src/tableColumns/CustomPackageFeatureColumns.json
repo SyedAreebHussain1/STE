@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Title",
+    "dataIndex": "title",
+    "key": "title",
+    "align": ""
+  },
+  {
+    "title": "Base Price",
+    "dataIndex": "basePrice",
+    "key": "basePrice",
+    "align": ""
+  },
+  {
+    "title": "Intervals",
+    "dataIndex": "intervals",
+    "align": "",
+    "key": "intervals"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

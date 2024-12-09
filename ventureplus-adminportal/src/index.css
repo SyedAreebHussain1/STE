@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("react-phone-number-input/style.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-scrollbar::-webkit-scrollbar {
+    @apply !h-[6px] !p-[2px] !w-[6px] !bg-transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply dark:!bg-primary !rounded-lg !bg-green-200;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply !bg-transparent;
+  }

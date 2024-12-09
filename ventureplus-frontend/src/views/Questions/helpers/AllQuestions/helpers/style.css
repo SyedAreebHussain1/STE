@@ -1,0 +1,33 @@
+.table-container {
+  margin: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  /* border: 1px solid #ccc; */
+  padding: 8px;
+  /* text-align: center; */
+}
+
+th {
+  background-color: #f5f5f5;
+}
+
+.editable-cell input {
+  width: 20px !important;
+  text-align: center;
+  border: none;
+  padding: 4px;
+  font-size: 14px;
+}
+
+.editable-cell input:focus {
+  outline: none;
+  background-color: #e6f7ff;
+}

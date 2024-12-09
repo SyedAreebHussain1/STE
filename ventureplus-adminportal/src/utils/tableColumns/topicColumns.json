@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Title",
+    "dataIndex": "title",
+    "key": "title"
+  },
+  {
+    "title": "Description",
+    "dataIndex": "description",
+    "key": "description"
+  },
+  {
+    "title": "No Of Lines",
+    "dataIndex": "minNoOfLines",
+    "key": "minNoOfLines"
+  },
+  {
+    "title": "No Of Paras",
+    "dataIndex": "minNoOfParas",
+    "key": "minNoOfParas"
+  },
+  {
+    "title": "BMC",
+    "dataIndex": "isUsedForBMC",
+    "key": "isUsedForBMC"
+  },
+  {
+    "title": "GPT",
+    "dataIndex": "isGPT",
+    "key": "isGPT"
+  },
+  {
+    "title": "Created At",
+    "dataIndex": "createdAt",
+    "key": "createdAt"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action"
+  }
+]

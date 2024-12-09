@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Name",
+      "dataIndex": "name",
+      "key": "name"
+    },
+    {
+        "title": "CreatedBy",
+        "dataIndex": "userName",
+        "key": "userName"
+      },
+    {
+        "title": "Score",
+        "dataIndex": "score",
+        "key": "score"
+      },
+    {
+      "title": "Praise",
+      "dataIndex": "praise",
+      "key": "praise"
+    },
+    {
+      "title": "Critique",
+      "dataIndex": "critique",
+      "key": "critique"
+    },
+    {
+      "title": "Suggestion",
+      "dataIndex": "suggestion",
+      "key": "suggestion"
+    }
+  ]
+  

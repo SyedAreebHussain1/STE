@@ -1,0 +1,38 @@
+[
+    {
+      "title": "SNo",
+      "dataIndex": "sno",
+      "key": "sno",
+      "align": "center"
+    },
+    {
+      "title": "Ticket Subject",
+      "dataIndex": "ticketSubject",
+      "align": "center",
+      "key": "ticketSubject"
+    },
+    {
+      "title": "Priority",
+      "dataIndex": "priority",
+      "align": "center",
+      "key": "priority"
+    },
+    {
+      "title": "Status",
+      "dataIndex": "status",
+      "align": "center",
+      "key": "status"
+    },
+    {
+      "title": "Date",
+      "dataIndex": "date",
+      "align": "center",
+      "key": "date"
+    },
+    {
+      "title": "Action",
+      "dataIndex": "action",
+      "align": "",
+      "key": "action"
+    }
+  ]

@@ -1,0 +1,86 @@
+{
+  "name": "propertywallet",
+  "version": "0.1.0",
+  "homepage": "https://propertywallet.com.pk/",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.0.0",
+    "@craco/craco": "^5.8.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-google-maps/api": "^2.19.2",
+    "@reduxjs/toolkit": "^2.0.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@uidotdev/usehooks": "^2.4.1",
+    "antd": "^4.4.3",
+    "antd-country-phone-input": "^4.5.1",
+    "aos": "^2.3.4",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "craco-less": "^2.0.0",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.0.3",
+    "google-maps-react": "^2.0.2",
+    "html-react-parser": "^0.10.1",
+    "html-to-image": "^1.11.11",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "nanoid": "^5.0.4",
+    "number-to-words": "^1.2.4",
+    "owl.carousel": "^2.3.4",
+    "popup-chat-react": "^1.0.5",
+    "react": "^16.12.0",
+    "react-alice-carousel": "^2.7.1",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.12.0",
+    "react-modal-video": "^1.2.8",
+    "react-otp-input": "^2.4.0",
+    "react-phone-number-input": "^3.3.7",
+    "react-player": "^2.11.2",
+    "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^5.0.1",
+    "react-spring": "^8.0.27",
+    "react-spring-3d-carousel": "^1.2.1",
+    "react-to-print": "^2.14.13",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "sass": "^1.60.0",
+    "socket.io-client": "^4.7.2",
+    "sweetalert": "^2.1.2",
+    "uuid": "^9.0.0",
+    "world_countries_lists": "^2.8.1",
+    "wowjs": "^1.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}

@@ -1,0 +1,63 @@
+.hover-effect {
+  position: relative;
+  overflow: hidden;
+  color: inherit;
+  z-index: 0;
+  transition: color 0.5s ease-in-out;
+  border-radius: 15px;
+}
+.hover-effect:hover {
+  color: white;
+}
+.hover-effect.active {
+  background-color: #016a70;
+  color: white;
+}
+.hover-effect::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: #016a70;
+  transition: all 0.5s ease-in-out, color 0.5s ease-in-out;
+  z-index: -1;
+  transform: translate(-50%, -50%) scale(0);
+  transform-origin: center;
+  border-radius: 50%;
+}
+
+.hover-effect:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+.WebsiteMenu {
+  height: calc(100vh - 80px);
+  transition: all 0.5s linear;
+  border-top: 1px solid #016a70;
+}
+
+.WebsiteMenuClose {
+  transform: translateX(-100vw);
+}
+.WebsiteMenuOpen {
+  transform: translateX(0);
+}
+/* .audienceMainContainerSecondClass {
+  transition: all 0.5s ease-in-out;
+} */
+.audienceMainContainer {
+  transition: all 0.5s ease-in-out;
+}
+
+/* .audienceMainContainer:hover {
+  display: block;
+  opacity: 1;
+} */
+.audienceCardArrow {
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+.audienceCard:hover .audienceCardArrow {
+  opacity: 1;
+}

@@ -1,0 +1,12 @@
+.swal-button {
+  background-color: #00adff !important;
+}
+.login_mobile {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.signup_mobile {
+  display: flex !important;
+  flex-direction: column;
+  padding-bottom: 20px;
+}

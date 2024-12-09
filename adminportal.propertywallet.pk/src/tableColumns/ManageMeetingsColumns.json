@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Title",
+    "dataIndex": "title",
+    "key": "title",
+    "align": ""
+  },
+  {
+    "title": "Slots",
+    "dataIndex": "slots",
+    "align": "",
+    "key": "slots"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "align": "",
+    "key": "date"
+  },
+  {
+    "title": "Time",
+    "dataIndex": "time",
+    "align": "",
+    "key": "time"
+  },
+  {
+    "title": "Url",
+    "dataIndex": "url",
+    "align": "center",
+    "key": "url",
+    "width": 200
+  },
+  {
+    "title": "Participants",
+    "dataIndex": "participants",
+    "align": "",
+    "key": "participants"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

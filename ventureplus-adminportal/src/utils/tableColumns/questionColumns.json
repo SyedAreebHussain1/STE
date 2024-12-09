@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Question",
+    "dataIndex": "question",
+    "key": "question"
+  },
+  {
+    "title": "Preferred Answer",
+    "dataIndex": "preferredAnswer",
+    "key": "preferredAnswer"
+  },
+  {
+    "title": "MCQ Type",
+    "dataIndex": "mcqType",
+    "key": "mcqType"
+  },
+  {
+    "title": "Tabular",
+    "dataIndex": "isTabular",
+    "key": "isTabular"
+  },
+  {
+    "title": "MCQ",
+    "dataIndex": "isMCQ",
+    "key": "isMCQ"
+  },
+  {
+    "title": "Linked",
+    "dataIndex": "isLinked",
+    "key": "isLinked"
+  },
+  {
+    "title": "BP Element",
+    "dataIndex": "bpElement",
+    "key": "bpElement"
+  },
+  {
+    "title": "Options BP Element",
+    "dataIndex": "OptionsBPElement",
+    "key": "OptionsBPElement"
+  },
+  {
+    "title": "Auto Suggestion",
+    "dataIndex": "autoSuggestion",
+    "key": "autoSuggestion"
+  },
+  {
+    "title": "Auto Fill",
+    "dataIndex": "autoFill",
+    "key": "autoFill"
+  },
+  {
+    "title": "Created At",
+    "dataIndex": "createdAt",
+    "key": "createdAt"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action"
+  }
+]

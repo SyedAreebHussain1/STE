@@ -1,0 +1,34 @@
+[
+  {
+    "question": "What stage is the business at?",
+    "value": null,
+    "type": "selectBox",
+    "mode": "single",
+    "option": [{ "icon": "", "heading": "", "paragraph": "", "value": "" }]
+  },
+  {
+    "question": "what is the business called?",
+    "value": null,
+    "type": "input"
+  },
+  {
+    "question": "Where is the business located?",
+    "value": null,
+    "option": ""
+  },
+  {
+    "question": "Where is your Name & Role",
+    "value": null,
+    "option": ""
+  },
+  {
+    "question": "What does the business do?",
+    "value": null,
+    "option": ""
+  },
+  {
+    "question": "What currency / language will be used",
+    "value": null,
+    "option": ""
+  }
+]

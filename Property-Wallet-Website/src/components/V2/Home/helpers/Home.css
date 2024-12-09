@@ -1,0 +1,433 @@
+/* 
+*{
+    outline: 1px solid green !important;
+} */
+.btn.btn-circle {
+    padding: 0;
+    border-radius: 100% !important;
+    width: 2.2rem;
+    height: 2.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    line-height: 1;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.rounded img {
+    border-radius: 0.4rem;
+}
+
+.bg-pale-primary {
+    background-color: #cccfd3 !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+/* CSS */
+.button-24 {
+    background: #27a3a3;
+    border: 1px solid #27a3a3;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-left: 35px;
+}
+
+.button-25 {
+    background: #27a3a3;
+    border: 1px solid #27a3a3;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    /* margin-left: 35px; */
+}
+
+.button-24:hover,
+.button-24:active {
+    /* background-color: initial;
+    background-position: 0 0;
+    color: #FF4742; */
+}
+
+.button-25:active {
+    opacity: .5;
+}
+
+.button-24:active {
+    opacity: .5;
+}
+
+
+/* CSS */
+.button-18 {
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.card01 {
+    box-shadow: 0 0 0 0.05rem rgba(8, 60, 130, .06), 0 0 1.25rem rgba(30, 34, 40, .04);
+    border: 0;
+    color: inherit;
+}
+
+.image-wrapper.bg-cover {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll !important;
+}
+
+.image-wrapper:not(.mobile) {
+    background-attachment: fixed !important;
+}
+
+.shadow-lg {
+    box-shadow: 0 .25rem 1.75rem rgba(30, 34, 40, .07) !important;
+}
+
+.button-18:hover,
+.button-18:focus {
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+.button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+.svg-bg {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 3rem;
+    height: 3rem;
+}
+
+.svg-bg.svg-bg-lg {
+    width: 4rem;
+    height: 4rem;
+}
+
+   .centered-join-main{
+    background-image: url(../../../images/JoinImg.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+  .centered-join {
+    width: 50%
+  }
+.bg-pale-violet {
+    background-color: #f0eaf6;
+    border-radius: 12px;
+}
+
+.bg-pale-green {
+    background-color: #e1f6f0;
+    border-radius: 12px;
+}
+
+.card-body-carsoul {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+.gradiant{
+    background-image: linear-gradient(#FFFFFF, #F0F8FF);
+}
+.bg-pale-yellow {
+    background-color: #fef3e4;
+    border-radius: 12px;
+}
+
+.bg-pale-pink {
+    background-color: #f8e7ec;
+    border-radius: 12px;
+}
+
+.bg-pale-blue {
+    background-color: #e0e9fa;
+    border-radius: 12px;
+}
+
+
+.bg-pale-purple {
+    background-color: #e9eaf8;
+    border-radius: 12px;
+}
+
+.bg-pale-leaf {
+    background-color: #eaf3ef;
+    border-radius: 12px;
+}
+
+.icon-svg.icon-svg-md {
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+.gradient-7 {
+    background-image: linear-gradient(100deg, #605dba 20%, #3f78e0 85%);
+}
+
+.gradient-6,
+.gradient-7 {
+    background-size: 130% auto;
+}
+
+figure img {
+    width: 100%;
+    max-width: 100%;
+    height: auto !important;
+}
+
+.align-items-start {
+    align-items: flex-start !important;
+}
+
+.ms-auto {
+    margin-left: auto !important;
+}
+
+.flex-row {
+    flex-direction: row !important;
+}
+
+@media (min-width: 992px) {
+
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+}
+
+.ms-auto {
+    margin-left: auto !important;
+}
+
+@media (min-width: 1200px) {
+    .fs-60 {
+        font-size: 3rem !important;
+    }
+
+    .fs-60 {
+        font-size: calc(1.425rem + 2.1vw) !important;
+    }
+
+    .text-gradient {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
+
+    .lh-1 {
+        line-height: 1 !important;
+    }
+
+    .fw-normal {
+        font-weight: 500 !important;
+    }
+
+    .mb-3 {
+        margin-bottom: 0.75rem !important;
+    }
+
+
+
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+.nav-logo {
+    /* width: 60% !important; */
+}
+.join-heading{
+
+    font-weight: 700;  font-size: 54px 
+}
+.join-heading-merge{
+    font-weight: 500; font-size: 3rem 
+}
+.gradient-7 {
+    background-image: none;
+}
+
+.class1 {
+    background-image: url(../../../images/roundclock.png) !important;
+    padding: 10px;
+    width: 50%;
+}
+
+.class2 {
+    padding: 10px;
+    width: 50%;
+    background-image: url(../../../images/becomeapropertywallet.png) !important;
+}
+
+@media (min-width: 992px) {
+
+    .image-wrapper.rounded-lg-start,
+    .map.rounded-lg-start iframe {
+        border-bottom-left-radius: 0.4rem !important;
+        border-top-left-radius: 0.4rem !important;
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+}
+
+.image-wrapper {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+@media (min-width: 992px) {
+
+    .p-lg-13 {
+        padding: 4rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .p-md-11 {
+        padding: 3rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .position-lg-sticky {
+        position: sticky;
+    }
+
+    .card11 {
+        height: auto;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 100px) {
+    .join-heading{
+        font-weight: 700; font-size: 2rem 
+    }
+    .join-heading-merge{
+        font-weight: 500; font-size: 2rem 
+    }
+  
+  }
+  
+@media screen and (max-width: 1194px) and (min-width: 100px) {
+    .main-navbar {
+        display: none !important;
+    }
+
+    .carsoul-btn {
+        display: none !important;
+    }
+
+    .ml-3 .mr-3 {
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+}
+
+.nav-logo {
+    width: 30% !important;
+}
+
+@media screen and (max-width: 1800px) and (min-width: 1450px) {
+    .nav-logo {
+        width: 170px !important;
+    }
+}
+
+@media screen and (max-width: 1449px) and (min-width: 1150px) {
+    .nav-logo {
+        width: 100% !important;
+    }
+}

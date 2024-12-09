@@ -1,0 +1,86 @@
+[
+  {
+    "title": "S No.",
+    "dataIndex": "sno",
+    "key": "sno"
+  },
+  {
+    "title": "Agent Name",
+    "dataIndex": "agentname",
+    "key": "agentname",
+    "align": "center"
+  },
+  {
+    "title": "Agency Name",
+    "dataIndex": "agencyname",
+    "key": "agencyname",
+    "align": "center"
+  },
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name",
+    "align": "center"
+  },
+  {
+    "title": "Email",
+    "dataIndex": "email",
+    "align": "",
+    "key": "email"
+  },
+  {
+    "title": "Phone",
+    "dataIndex": "phone",
+    "align": "",
+    "key": "phone"
+  },
+
+  {
+    "title": "Meeting Subject",
+    "dataIndex": "meetingSubject",
+    "align": "",
+    "key": "meetingSubject"
+  },
+  {
+    "title": "Meeting Type",
+    "dataIndex": "meetingType",
+    "key": "meetingType",
+    "align": "center"
+  },
+  {
+    "title": "Meeting Url",
+    "dataIndex": "meetingUrl",
+    "key": "meetingUrl",
+    "align": "center"
+  },
+  {
+    "title": "Description",
+    "dataIndex": "description",
+    "align": "",
+    "key": "description"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "date",
+    "align": "",
+    "key": "date"
+  },
+  {
+    "title": "Start Time",
+    "dataIndex": "startTime",
+    "align": "",
+    "key": "startTime"
+  },
+  {
+    "title": "End Time",
+    "dataIndex": "endTime",
+    "align": "",
+    "key": "endTime"
+  },
+  {
+    "title": "FeedBack",
+    "dataIndex": "feedBack",
+    "align": "",
+    "key": "feedBack"
+  }
+]

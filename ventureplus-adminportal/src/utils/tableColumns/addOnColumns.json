@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Title",
+        "dataIndex": "title",
+        "key": "title"
+    },
+    {
+        "title": "Interval",
+        "dataIndex": "description",
+        "key": "description"
+    },
+    {
+        "title": "Credit Counts",
+        "dataIndex": "creditCounts",
+        "key": "creditCounts"
+    },
+    {
+        "title": "Price",
+        "dataIndex": "price",
+        "key": "price"
+    },
+    {
+        "title": "Created At",
+        "dataIndex": "createdAt",
+        "key": "createdAt"
+    },
+    {
+        "title": "Action",
+        "dataIndex": "action",
+        "key": "action"
+    }
+]

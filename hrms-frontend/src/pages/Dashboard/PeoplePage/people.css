@@ -1,0 +1,14 @@
+.member {
+  color: #000000de !important;
+  font-weight: 400 !important;
+}
+
+.text-column {
+  color: #00000099 !important;
+  font-weight: 500 !important;
+}
+
+.people-page span.ant-checkbox-inner {
+  height: 21px;
+  width: 21px;
+}

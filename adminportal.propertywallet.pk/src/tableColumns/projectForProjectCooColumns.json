@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Project Name",
+    "dataIndex": "projectname",
+    "key": "projectname",
+    "align": ""
+  },
+  {
+    "title": "Description",
+    "dataIndex": "description",
+    "align": "",
+    "key": "description"
+  },
+  {
+    "title": "Address",
+    "dataIndex": "address",
+    "align": "",
+    "key": "address"
+  },
+  {
+    "title": "City",
+    "dataIndex": "city",
+    "align": "",
+    "key": "city"
+  },
+  {
+    "title": "Builder Name",
+    "dataIndex": "builderName",
+    "align": "",
+    "key": "builderName"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "",
+    "key": "action"
+  }
+]

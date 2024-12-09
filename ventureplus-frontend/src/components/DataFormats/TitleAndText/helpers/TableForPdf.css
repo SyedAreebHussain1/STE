@@ -1,0 +1,25 @@
+.customtable {
+  @apply w-full border-collapse border-b border-x-[2px]  border-b-[#016A70] border-x-transparent;
+}
+.customtable tr {
+  @apply w-full;
+}
+.customtable td {
+  @apply border border-[#016A70];
+}
+.customtable tbody tr:nth-child(even) {
+  @apply bg-[#f2f2f2];
+}
+.tableforPdf .ant-modal-content {
+  @apply m-0 p-0;
+}
+.custommodaltable {
+  @apply w-full border-collapse;
+}
+.custommodaltable td,
+.custommodaltable th {
+  @apply w-full overflow-x-hidden whitespace-nowrap p-[4px] border-[1px] border-[gray] text-[22px] text-left;
+}
+.custommodaltable tr {
+  @apply flex;
+}

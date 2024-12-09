@@ -1,0 +1,47 @@
+[
+    {
+      "title": "Lounge Name",
+      "dataIndex": "loungeName",
+      "key": "loungeName",
+      "align": "",
+      "width":250
+     
+    },
+    {
+      "title": "Lounge Owner",
+      "dataIndex": "loungeOwner",
+      "align": "",
+      "key": "loungeOwner"
+    },
+    {
+      "title": "Owner Email",
+      "dataIndex": "Owneremail",
+      "align": "",
+      "key": "Owneremail"
+    },
+    {
+      "title": "Owner Phone",
+      "dataIndex": "Ownerphone",
+      "align": "",
+      "key": "Ownerphone"
+    },
+    {
+      "title": "Create Date",
+      "dataIndex": "createDate",
+      "align": "",
+      "key": "createDate"
+    },
+    {
+      "title": "Project Name",
+      "dataIndex": "projectName",
+      "key": "projectName",
+      "align": ""
+    },
+    {
+      "title": "Builder Name",
+      "dataIndex": "builderName",
+      "align": "",
+      "key": "builderName"
+    }
+  ]
+  

@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Member",
+      "dataIndex": "member",
+      "key": "member",
+      "className": "member"
+    },
+    {
+      "title": "Email",
+      "dataIndex": "email",
+      "key": "email",
+      "className": "text-column"
+
+    },
+    {
+      "title": "Group",
+      "dataIndex": "group",
+      "key": "group",
+      "className": "text-column"
+    },
+    {
+      "title": "Last Active",
+      "dataIndex": "lastActive",
+      "key": "lastActive",
+      "className": "text-column"
+    }
+  ]

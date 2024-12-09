@@ -1,0 +1,41 @@
+@media print {
+  .page-form-5 {
+    page-break-before: always;
+    margin-top: 3%;
+  }
+  .page-form-5-verification {
+    page-break-before: always;
+    margin-top: 3%;
+  }
+  .page-form-5-pp {
+    page-break-before: always;
+    margin-top: 3%;
+  }
+}
+/* @page {
+  size: auto;
+  margin: 1cm;
+  content: "Page " counter(page) " of " counter(pages);
+} */
+/* .page-break1 {
+  page-break-before: always;
+  counter-increment: page;
+} */
+.Form5tablecustom {
+  border-spacing: 0;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px;
+  border-radius: 5px;
+  margin: 0px 2px;
+}
+.Form5tablecustom td {
+  border: 1px solid gray;
+}
+.Formh2 {
+  font-weight: 700;
+}
+.user-details-bottom {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+}

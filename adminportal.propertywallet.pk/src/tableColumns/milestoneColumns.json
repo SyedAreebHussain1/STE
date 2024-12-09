@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Sales Revenue",
+      "dataIndex": "salesRevenue",
+      "key": "salesRevenue"
+    },
+    {
+      "title": "Name",
+      "dataIndex": "name",
+      "key": "name",
+      "align": "center"
+    },
+    {
+      "title": "Milestone Commission",
+      "dataIndex": "milestoneCommission",
+      "align": "",
+      "key": "milestoneEaring"
+    },
+    {
+      "title": "Design",
+      "dataIndex": "design",
+      "align": "",
+      "key": "design"
+    },
+    {
+      "title": "Certificate",
+      "dataIndex": "certificate",
+      "align": "",
+      "key": "certificate"
+    },
+    {
+      "title": "Action",
+      "dataIndex": "action",
+      "align": "",
+      "key": "action"
+    }
+  ]

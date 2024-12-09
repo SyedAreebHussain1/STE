@@ -1,0 +1,88 @@
+/* milestone.css */
+
+/* Style for the milestone timeline container */
+.milestone-timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for individual milestones */
+.milestones {
+  display: flex;
+}
+
+/* Style for the milestone */
+.milestone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px; /* Adjust the margin to control spacing between milestones */
+  position: relative;
+  /* width: 200px; */
+}
+
+/* Style for the milestone icon */
+.milestone-icon {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+/* Style for achieved milestones */
+.milestone.achieved .milestone-icon {
+  background-color: green;
+}
+
+/* Style for pending milestones */
+.milestone.pending .milestone-icon {
+  background-color: gray;
+}
+
+/* Style for milestone details */
+.milestone-details {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Style for the progress bar */
+.progress-bar {
+  width: 200px; /* Adjust the width of the progress bar */
+  height: 2px; /* Adjust the height of the progress bar */
+  margin-top: 13px; /* Adjust the margin to align the progress bar with milestones */
+  border-radius: 5px;
+  border-style: solid;
+  /* border-color: green; */
+}
+
+/* Style for the current commission tag */
+.current-commission-tag {
+  margin-top: 10px;
+  font-weight: bold;
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+  /* Display milestones in a vertical layout */
+  .milestones {
+    flex-direction: column;
+  }
+  .progress-bar {
+    width: 2px; /* Adjust the width of the progress bar */
+    height: 124px; /* Adjust the height of the progress bar */
+    margin-top: 13px; /* Adjust the margin to align the progress bar with milestones */
+    margin-bottom: 25px;
+    margin-left: 48%;
+  }
+  /* Adjust width and margin for vertical milestones */
+  .milestone {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 10px; /* Add margin between vertical milestones */
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Title",
+    "dataIndex": "title",
+    "key": "title",
+    "className": "text-column"
+  },
+  {
+    "title": "Date",
+    "dataIndex": "createdAt",
+    "key": "createdAt",
+    "className": "text-column"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "key": "action",
+    "className": "text-column"
+  }
+]

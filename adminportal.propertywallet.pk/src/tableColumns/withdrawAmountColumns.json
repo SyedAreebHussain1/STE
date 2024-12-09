@@ -1,0 +1,51 @@
+[
+  {
+    "title": "SNo",
+    "dataIndex": "sno",
+    "key": "sno",
+    "align": "center"
+  },
+  {
+    "title": "Amount",
+    "dataIndex": "amount",
+    "align": "center",
+    "key": "amount"
+  },
+  {
+    "title": "Ref Code",
+    "dataIndex": "refCode",
+    "align": "center",
+    "key": "refCode"
+  },
+
+  {
+    "title": "Account Title",
+    "dataIndex": "accountTitle",
+    "align": "center",
+    "key": "accountTitle"
+  },
+  {
+    "title": "Account Number",
+    "dataIndex": "accountNumber",
+    "align": "center",
+    "key": "accountNumber"
+  },
+  {
+    "title": "Bank Name",
+    "dataIndex": "bankName",
+    "align": "center",
+    "key": "bankName"
+  },
+  {
+    "title": "Withdraw Date",
+    "dataIndex": "date",
+    "align": "center",
+    "key": "date"
+  },
+  {
+    "title": "Action",
+    "dataIndex": "action",
+    "align": "center",
+    "key": "action"
+  }
+]
