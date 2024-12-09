@@ -1,0 +1,30 @@
+/* body {
+  background-color: #262527;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #61dafb;
+}
+
+.BeePluginContainer {
+  width: 100%;
+  height: 40rem;
+  margin-top: 2rem;
+} */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailForm {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin: 10px 0px;
+}
